@@ -40,7 +40,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 2 4
 Title ""
 Date "23 jun 2014"
 Rev ""
@@ -62,10 +62,10 @@ F 3 "" H 1500 2450 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR111
+L VCC #PWR038
 U 1 1 534730B8
 P 1100 1650
-F 0 "#PWR111" H 1100 1750 30  0001 C CNN
+F 0 "#PWR038" H 1100 1750 30  0001 C CNN
 F 1 "VCC" H 1100 1750 30  0000 C CNN
 F 2 "" H 1100 1650 60  0000 C CNN
 F 3 "" H 1100 1650 60  0000 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 1100 1650 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR113
+L GND #PWR039
 U 1 1 534730C7
 P 1100 3350
-F 0 "#PWR113" H 1100 3350 30  0001 C CNN
+F 0 "#PWR039" H 1100 3350 30  0001 C CNN
 F 1 "GND" H 1100 3280 30  0001 C CNN
 F 2 "" H 1100 3350 60  0000 C CNN
 F 3 "" H 1100 3350 60  0000 C CNN
@@ -95,10 +95,10 @@ F 3 "~" H 900 2850 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR108
+L GND #PWR040
 U 1 1 534730F6
 P 700 2850
-F 0 "#PWR108" H 700 2850 30  0001 C CNN
+F 0 "#PWR040" H 700 2850 30  0001 C CNN
 F 1 "GND" H 700 2780 30  0001 C CNN
 F 2 "" H 700 2850 60  0000 C CNN
 F 3 "" H 700 2850 60  0000 C CNN
@@ -117,10 +117,10 @@ F 3 "~" H 800 2300 60  0000 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L GND #PWR110
+L GND #PWR041
 U 1 1 53473118
 P 800 2500
-F 0 "#PWR110" H 800 2500 30  0001 C CNN
+F 0 "#PWR041" H 800 2500 30  0001 C CNN
 F 1 "GND" H 800 2430 30  0001 C CNN
 F 2 "" H 800 2500 60  0000 C CNN
 F 3 "" H 800 2500 60  0000 C CNN
@@ -128,10 +128,10 @@ F 3 "" H 800 2500 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR109
+L VCC #PWR042
 U 1 1 53473123
 P 800 2100
-F 0 "#PWR109" H 800 2200 30  0001 C CNN
+F 0 "#PWR042" H 800 2200 30  0001 C CNN
 F 1 "VCC" H 800 2200 30  0000 C CNN
 F 2 "" H 800 2100 60  0000 C CNN
 F 3 "" H 800 2100 60  0000 C CNN
@@ -161,10 +161,10 @@ F 3 "~" H 2400 1350 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L VCC #PWR115
+L VCC #PWR043
 U 1 1 5347313E
 P 2600 3750
-F 0 "#PWR115" H 2600 3850 30  0001 C CNN
+F 0 "#PWR043" H 2600 3850 30  0001 C CNN
 F 1 "VCC" H 2600 3850 30  0000 C CNN
 F 2 "" H 2600 3750 60  0000 C CNN
 F 3 "" H 2600 3750 60  0000 C CNN
@@ -223,10 +223,10 @@ Wire Wire Line
 	3450 3000 3450 3950
 Connection ~ 3450 3950
 $Comp
-L VCC #PWR114
+L VCC #PWR044
 U 1 1 5347319D
 P 2200 1250
-F 0 "#PWR114" H 2200 1350 30  0001 C CNN
+F 0 "#PWR044" H 2200 1350 30  0001 C CNN
 F 1 "VCC" H 2200 1350 30  0000 C CNN
 F 2 "" H 2200 1250 60  0000 C CNN
 F 3 "" H 2200 1250 60  0000 C CNN
@@ -234,10 +234,10 @@ F 3 "" H 2200 1250 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR112
+L GND #PWR045
 U 1 1 534731B3
 P 1100 2550
-F 0 "#PWR112" H 1100 2550 30  0001 C CNN
+F 0 "#PWR045" H 1100 2550 30  0001 C CNN
 F 1 "GND" H 1100 2480 30  0001 C CNN
 F 2 "" H 1100 2550 60  0000 C CNN
 F 3 "" H 1100 2550 60  0000 C CNN
@@ -274,8 +274,6 @@ Wire Wire Line
 	2000 3050 2100 3050
 Wire Wire Line
 	2000 3150 2100 3150
-Wire Wire Line
-	2000 3250 2100 3250
 Entry Wire Line
 	2100 1750 2200 1850
 Entry Wire Line
@@ -377,8 +375,6 @@ Entry Wire Line
 Entry Wire Line
 	6750 2100 6850 2200
 Entry Wire Line
-	6750 2000 6850 2100
-Entry Wire Line
 	8400 2700 8500 2800
 Entry Wire Line
 	8400 2600 8500 2700
@@ -443,4 +439,76 @@ Wire Wire Line
 	2400 3450 2000 3450
 Wire Wire Line
 	2200 3950 2200 3750
+Wire Wire Line
+	2000 3250 2100 3250
+NoConn ~ 5150 3000
+NoConn ~ 3450 2100
+NoConn ~ 6850 2100
+NoConn ~ 8500 3000
+Text Label 3450 2200 0    28   ~ 0
+1a
+Text Label 3450 2300 0    28   ~ 0
+1b
+Text Label 3450 2400 0    28   ~ 0
+1c
+Text Label 3450 2500 0    28   ~ 0
+1d
+Text Label 3450 2600 0    28   ~ 0
+1e
+Text Label 3450 2700 0    28   ~ 0
+1f
+Text Label 3450 2800 0    28   ~ 0
+1g
+Text Label 3450 2900 0    28   ~ 0
+1dp
+Text Label 5150 2900 0    28   ~ 0
+1dp
+Text Label 5150 2800 0    28   ~ 0
+1g
+Entry Wire Line
+	5050 2600 5150 2700
+Text Label 5150 2700 0    28   ~ 0
+1f
+Text Label 5150 2600 0    28   ~ 0
+1e
+Text Label 5150 2500 0    28   ~ 0
+1d
+Text Label 5150 2400 0    28   ~ 0
+1c
+Text Label 5150 2300 0    28   ~ 0
+1b
+Text Label 5150 2200 0    28   ~ 0
+1a
+Text Label 6850 2200 0    28   ~ 0
+2a
+Text Label 6850 2300 0    28   ~ 0
+2b
+Text Label 6850 2400 0    28   ~ 0
+2c
+Text Label 6850 2500 0    28   ~ 0
+2d
+Text Label 6850 2600 0    28   ~ 0
+2e
+Text Label 6850 2700 0    28   ~ 0
+2f
+Text Label 6850 2800 0    28   ~ 0
+2g
+Text Label 6850 2900 0    28   ~ 0
+2dp
+Text Label 8500 2200 0    28   ~ 0
+2a
+Text Label 8500 2300 0    28   ~ 0
+2b
+Text Label 8500 2400 0    28   ~ 0
+2c
+Text Label 8500 2500 0    28   ~ 0
+2d
+Text Label 8500 2600 0    28   ~ 0
+2e
+Text Label 8500 2700 0    28   ~ 0
+2f
+Text Label 8500 2800 0    28   ~ 0
+2g
+Text Label 8500 2900 0    28   ~ 0
+2dp
 $EndSCHEMATC

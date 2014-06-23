@@ -40,7 +40,7 @@ EELAYER 27 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 3 4
 Title ""
 Date "23 jun 2014"
 Rev ""
@@ -62,10 +62,10 @@ F 3 "DOCUMENTATION" H 2150 2400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VCC #PWR118
+L VCC #PWR046
 U 1 1 5350562C
 P 2150 1100
-F 0 "#PWR118" H 2150 1200 30  0001 C CNN
+F 0 "#PWR046" H 2150 1200 30  0001 C CNN
 F 1 "VCC" H 2150 1200 30  0000 C CNN
 F 2 "" H 2150 1100 60  0000 C CNN
 F 3 "" H 2150 1100 60  0000 C CNN
@@ -73,10 +73,10 @@ F 3 "" H 2150 1100 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR119
+L GND #PWR047
 U 1 1 53505632
 P 2150 3800
-F 0 "#PWR119" H 2150 3800 30  0001 C CNN
+F 0 "#PWR047" H 2150 3800 30  0001 C CNN
 F 1 "GND" H 2150 3730 30  0001 C CNN
 F 2 "" H 2150 3800 60  0000 C CNN
 F 3 "" H 2150 3800 60  0000 C CNN
@@ -84,10 +84,10 @@ F 3 "" H 2150 3800 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR117
+L GND #PWR048
 U 1 1 5350563A
 P 1100 2100
-F 0 "#PWR117" H 1100 2100 30  0001 C CNN
+F 0 "#PWR048" H 1100 2100 30  0001 C CNN
 F 1 "GND" H 1100 2030 30  0001 C CNN
 F 2 "" H 1100 2100 60  0000 C CNN
 F 3 "" H 1100 2100 60  0000 C CNN
@@ -106,10 +106,10 @@ F 3 "~" H 950 1550 30  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR116
+L GND #PWR049
 U 1 1 53505646
 P 700 1550
-F 0 "#PWR116" H 700 1550 30  0001 C CNN
+F 0 "#PWR049" H 700 1550 30  0001 C CNN
 F 1 "GND" H 700 1480 30  0001 C CNN
 F 2 "" H 700 1550 60  0000 C CNN
 F 3 "" H 700 1550 60  0000 C CNN
@@ -178,8 +178,6 @@ Entry Wire Line
 	3200 2050 3300 2150
 Entry Wire Line
 	3200 2150 3300 2250
-Entry Wire Line
-	3200 2250 3300 2350
 Text Label 4450 1300 0    60   ~ 0
 I1
 Entry Wire Line
@@ -379,7 +377,7 @@ Entry Wire Line
 Entry Wire Line
 	3550 4300 3650 4400
 Text Label 4450 5150 0    60   ~ 0
-l8
+I8
 $Comp
 L SW_TACT_LED S14
 U 1 1 53794706
@@ -404,8 +402,40 @@ F 3 "~" H 4000 4950 30  0000 C CNN
 $EndComp
 Entry Wire Line
 	4350 5050 4450 5150
+$Comp
+L GND #PWR050
+U 1 1 537951D0
+P 5250 5150
+F 0 "#PWR050" H 5250 5150 30  0001 C CNN
+F 1 "GND" H 5250 5080 30  0001 C CNN
+F 2 "" H 5250 5150 60  0000 C CNN
+F 3 "" H 5250 5150 60  0000 C CNN
+	1    5250 5150
+	0    -1   -1   0   
+$EndComp
+Text Label 3650 1100 0    60   ~ 0
+L1
+Text Label 3650 1650 0    60   ~ 0
+L2
+Text Label 3650 2200 0    60   ~ 0
+L3
+Text Label 3650 2750 0    60   ~ 0
+L4
+Text Label 3650 3300 0    60   ~ 0
+L5
+Text Label 3650 3850 0    60   ~ 0
+L6
+Text Label 3650 4400 0    60   ~ 0
+L7
+Text HLabel 1200 2950 0    28   Input ~ 0
+SDA
+Text HLabel 1200 3050 0    28   Input ~ 0
+SCL
+Text HLabel 3100 3350 2    28   Input ~ 0
+UI INT
+NoConn ~ 3100 3250
 Entry Wire Line
-	3550 4850 3650 4950
+	3200 2250 3300 2350
 Connection ~ 1150 2100
 Wire Wire Line
 	1100 2100 1200 2100
@@ -445,8 +475,6 @@ Wire Wire Line
 	3100 2050 3200 2050
 Wire Wire Line
 	3100 2150 3200 2150
-Wire Wire Line
-	3100 2250 3200 2250
 Wire Wire Line
 	4550 1300 4550 1200
 Wire Wire Line
@@ -537,22 +565,7 @@ Connection ~ 5150 1200
 Wire Wire Line
 	5050 1300 5150 1300
 Connection ~ 5150 1300
-$Comp
-L GND #PWR120
-U 1 1 537951D0
-P 5250 5150
-F 0 "#PWR120" H 5250 5150 30  0001 C CNN
-F 1 "GND" H 5250 5080 30  0001 C CNN
-F 2 "" H 5250 5150 60  0000 C CNN
-F 3 "" H 5250 5150 60  0000 C CNN
-	1    5250 5150
-	0    -1   -1   0   
-$EndComp
 Connection ~ 5150 5150
-Text Label 3650 1100 0    60   ~ 0
-L1
-Wire Wire Line
-	3650 4950 3750 4950
 Wire Wire Line
 	3650 4400 3750 4400
 Wire Wire Line
@@ -567,20 +580,6 @@ Wire Wire Line
 	3650 1650 3750 1650
 Wire Wire Line
 	3650 1100 3750 1100
-Text Label 3650 1650 0    60   ~ 0
-L2
-Text Label 3650 2200 0    60   ~ 0
-L3
-Text Label 3650 2750 0    60   ~ 0
-L4
-Text Label 3650 3300 0    60   ~ 0
-L5
-Text Label 3650 3850 0    60   ~ 0
-L6
-Text Label 3650 4400 0    60   ~ 0
-L7
-Text Label 3650 4950 0    60   ~ 0
-L8
 Wire Bus Line
 	3550 4850 3550 1000
 Wire Bus Line
@@ -623,10 +622,12 @@ Wire Bus Line
 	3300 900  4350 900 
 Wire Bus Line
 	4350 900  4350 5050
-Text HLabel 1200 2950 0    28   Input ~ 0
-SDA
-Text HLabel 1200 3050 0    28   Input ~ 0
-SCL
-Text HLabel 3100 3350 2    28   Input ~ 0
-UI INT
+Wire Wire Line
+	3100 2250 3200 2250
+Text Label 3650 4950 0    60   ~ 0
+L8
+Wire Wire Line
+	3750 4950 3650 4950
+Entry Wire Line
+	3550 4850 3650 4950
 $EndSCHEMATC
