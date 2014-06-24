@@ -20,6 +20,7 @@ library/numato_kicad_lib.mod -text
 /mls800-cache.lib -text
 /mls800.bak -text
 /mls800.kicad_pcb -text
+/mls800.net -text
 /mls800.pro -text
 /mls800.sch -text
 /mls800_display.bak -text
