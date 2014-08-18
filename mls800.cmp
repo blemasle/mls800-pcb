@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/08/2014 01:04:41
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 19/08/2014 01:13:36
 
 BeginCmp
 TimeStamp = /535060B0;
@@ -368,126 +368,126 @@ BeginCmp
 TimeStamp = /534730A1/53473138;
 Reference = Q1;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /534730A1/5347312B;
 Reference = Q2;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15039;
 Reference = Q3;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F1504D;
 Reference = Q4;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15A0F;
 Reference = Q5;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15A23;
 Reference = Q6;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15C78;
 Reference = Q7;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15C8C;
 Reference = Q8;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15CEB;
 Reference = Q9;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15CFF;
 Reference = Q10;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15EEE;
 Reference = Q11;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15EFB;
 Reference = Q12;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15F55;
 Reference = Q13;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15F69;
 Reference = Q14;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15FC9;
 Reference = Q15;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15FDD;
 Reference = Q16;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F1603C;
 Reference = Q17;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F16050;
 Reference = Q18;
 ValeurCmp = 2N3904;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
@@ -823,7 +823,7 @@ BeginCmp
 TimeStamp = /53505873;
 Reference = U1;
 ValeurCmp = LM340-5.0;
-IdModule  = ;
+IdModule  = SOT223;
 EndCmp
 
 BeginCmp
