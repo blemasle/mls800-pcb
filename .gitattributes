@@ -21,6 +21,7 @@ library/atmega32u4bb-from_eagle.bak -text
 library/atmega32u4bb-from_eagle.bck -text
 library/atmega32u4bb-from_eagle.dcm -text
 library/atmega32u4bb-from_eagle.lib -text
+library/imported.pretty/SOD-123.kicad_mod -text
 library/micro-philips.lib -text
 library/micro-philips.mod -text
 library/numato_kicad_lib.dcm -text
