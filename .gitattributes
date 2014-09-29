@@ -1,4 +1,13 @@
 * text=auto !eol
+footprint/MK_5pins_conn.mod -text
+footprint/din5.emp -text
+footprint/imported.pretty/DIN_5.kicad_mod -text
+footprint/imported.pretty/SOD-123.kicad_mod -text
+footprint/packages3d/din-5.wings -text
+footprint/packages3d/din-5.wrl -text
+footprint/sod123.emp -text
+footprint/w_conn_av.mod -text
+/fp-lib-table -text
 library/IHE.bak -text
 library/IHE.bck -text
 library/IHE.dcm -text

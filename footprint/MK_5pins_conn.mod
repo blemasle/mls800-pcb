@@ -1,0 +1,77 @@
+PCBNEW-LibModule-V1  Onsdag 11 December 2013 20:36:57
+# encoding utf-8
+Units mm
+$INDEX
+DIN_5
+$EndINDEX
+$MODULE DIN_5
+Po 0 0 0 15 52A8BE96 00000000 ~~
+Li DIN_5
+Sc 0
+AR 
+Op 0 0 0
+T0 0 7.62 1.5 1.5 0 0.15 N V 21 N "DIN_5"
+T1 0 5.08 1.5 1.5 0 0.15 N V 21 N ""
+DS -10.16 -1.27 10.16 -1.27 0.3 21
+DS -10.16 -1.27 -10.16 12.7 0.3 21
+DS 10.16 -1.27 -10.16 -1.27 0.3 21
+DS 10.16 12.7 10.16 -1.27 0.3 21
+DS 10.16 -1.27 10.16 12.7 0.3 21
+DS -10.16 12.7 10.16 12.7 0.3 21
+$PAD
+Sh "7" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 10.16
+$EndPAD
+$PAD
+Sh "6" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 10.16
+$EndPAD
+$PAD
+Sh "3" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -7.62 0
+$EndPAD
+$PAD
+Sh "5" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po -5.08 -2.54
+$EndPAD
+$PAD
+Sh "2" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 0 0
+$EndPAD
+$PAD
+Sh "4" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 5.08 -2.54
+$EndPAD
+$PAD
+Sh "1" C 3 3 0 0 0
+Dr 2 0 0
+At STD N 00E0FFFF
+Ne 0 ""
+Po 7.62 0
+$EndPAD
+$SHAPE3D
+Na "din-5.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE DIN_5
+$EndLIBRARY
