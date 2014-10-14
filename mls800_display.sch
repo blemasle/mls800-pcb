@@ -29,12 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:custom-i2c
+LIBS:custom-opto
+LIBS:custom-conn
+LIBS:custom-device
 LIBS:mls800-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 4
+Sheet 2 5
 Title ""
 Date "18 aug 2014"
 Rev ""

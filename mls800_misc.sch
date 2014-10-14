@@ -29,12 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:custom-i2c
+LIBS:custom-opto
+LIBS:custom-conn
+LIBS:custom-device
 LIBS:mls800-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 4
+Sheet 3 5
 Title ""
 Date "18 aug 2014"
 Rev ""
@@ -662,14 +666,14 @@ F 3 "" H 1100 2100 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L DGND #PWR049
-U 1 1 53F19F7A
+L VCC #PWR?
+U 1 1 543C72E7
 P 750 1550
-F 0 "#PWR049" H 750 1550 40  0001 C CNN
-F 1 "DGND" H 750 1480 40  0000 C CNN
+F 0 "#PWR?" H 750 1650 30  0001 C CNN
+F 1 "VCC" H 750 1650 30  0000 C CNN
 F 2 "" H 750 1550 60  0000 C CNN
 F 3 "" H 750 1550 60  0000 C CNN
 	1    750  1550
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $EndSCHEMATC

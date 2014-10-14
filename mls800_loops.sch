@@ -29,12 +29,16 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:custom-i2c
+LIBS:custom-opto
+LIBS:custom-conn
+LIBS:custom-device
 LIBS:mls800-cache
 EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 4
+Sheet 4 5
 Title "noname.sch"
 Date "18 aug 2014"
 Rev ""
@@ -2018,21 +2022,21 @@ F 3 "" H 2050 3350 60  0000 C CNN
 	1    2050 3350
 	1    0    0    -1  
 $EndComp
-$Comp
-L DGND #PWR0103
-U 1 1 53F19FB3
-P 600 1100
-F 0 "#PWR0103" H 600 1100 40  0001 C CNN
-F 1 "DGND" H 600 1030 40  0000 C CNN
-F 2 "" H 600 1100 60  0000 C CNN
-F 3 "" H 600 1100 60  0000 C CNN
-	1    600  1100
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 3700 5200 3250
 Wire Wire Line
 	9500 3700 9500 3250
 Wire Bus Line
 	3500 1200 3200 1200
+$Comp
+L VCC #PWR?
+U 1 1 543C6A1E
+P 600 1100
+F 0 "#PWR?" H 600 1200 30  0001 C CNN
+F 1 "VCC" H 600 1200 30  0000 C CNN
+F 2 "" H 600 1100 60  0000 C CNN
+F 3 "" H 600 1100 60  0000 C CNN
+	1    600  1100
+	0    -1   -1   0   
+$EndComp
 $EndSCHEMATC
