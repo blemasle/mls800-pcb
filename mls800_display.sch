@@ -33,6 +33,7 @@ LIBS:custom-i2c
 LIBS:custom-opto
 LIBS:custom-conn
 LIBS:custom-device
+LIBS:custom-display
 LIBS:mls800-cache
 EELAYER 24 0
 EELAYER END

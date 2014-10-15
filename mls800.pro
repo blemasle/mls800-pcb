@@ -1,4 +1,4 @@
-update=15/10/2014 00:52:11
+update=15/10/2014 22:53:57
 version=1
 last_client=eeschema
 [general]
@@ -67,3 +67,4 @@ LibName31=custom-i2c
 LibName32=custom-opto
 LibName33=custom-conn
 LibName34=custom-device
+LibName35=custom-display
