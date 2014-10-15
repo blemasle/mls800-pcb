@@ -1,4 +1,4 @@
-update=15/10/2014 22:53:57
+update=15/10/2014 23:50:01
 version=1
 last_client=eeschema
 [general]
@@ -68,3 +68,4 @@ LibName32=custom-opto
 LibName33=custom-conn
 LibName34=custom-device
 LibName35=custom-display
+LibName36=custom-micro

@@ -34,6 +34,7 @@ LIBS:custom-opto
 LIBS:custom-conn
 LIBS:custom-device
 LIBS:custom-display
+LIBS:custom-micro
 LIBS:mls800-cache
 EELAYER 24 0
 EELAYER END
