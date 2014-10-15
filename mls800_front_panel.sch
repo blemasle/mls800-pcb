@@ -271,4 +271,93 @@ Wire Wire Line
 	1050 1050 1050 950 
 Wire Wire Line
 	1050 950  1550 950 
+$Comp
+L SW_TACT_LED SW?
+U 1 1 543F13D1
+P 4700 4350
+F 0 "SW?" H 4500 4500 60  0000 C CNN
+F 1 "SW_TACT_LED" H 4670 4250 60  0001 C CNN
+F 2 "" H 4700 4350 60  0000 C CNN
+F 3 "" H 4700 4350 60  0000 C CNN
+	1    4700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_TACT_LED SW?
+U 2 1 543F13EA
+P 4700 4600
+F 0 "SW?" H 4500 4750 60  0000 C CNN
+F 1 "SW_TACT_LED" H 4670 4500 60  0001 C CNN
+F 2 "" H 4700 4600 60  0000 C CNN
+F 3 "" H 4700 4600 60  0000 C CNN
+	2    4700 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_TACT_LED SW?
+U 3 1 543F145D
+P 4700 4900
+F 0 "SW?" H 4500 5050 60  0000 C CNN
+F 1 "SW_TACT_LED" H 4670 4800 60  0001 C CNN
+F 2 "" H 4700 4900 60  0000 C CNN
+F 3 "" H 4700 4900 60  0000 C CNN
+	3    4700 4900
+	1    0    0    -1  
+$EndComp
+$Comp
+L MCP23017 U?
+U 1 1 543F149E
+P 2500 5250
+F 0 "U?" H 1950 6350 50  0000 C CNN
+F 1 "MCP23017" H 2950 4150 50  0000 C CNN
+F 2 "MODULE" H 2000 4150 50  0001 C CNN
+F 3 "DOCUMENTATION" H 2500 5200 50  0001 C CNN
+	1    2500 5250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DGND #PWR?
+U 1 1 543F1572
+P 2500 6600
+F 0 "#PWR?" H 2500 6600 40  0001 C CNN
+F 1 "DGND" H 2500 6530 40  0000 C CNN
+F 2 "" H 2500 6600 60  0000 C CNN
+F 3 "" H 2500 6600 60  0000 C CNN
+	1    2500 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 543F18A9
+P 1300 4400
+F 0 "R?" V 1380 4400 40  0000 C CNN
+F 1 "1K" V 1307 4401 40  0000 C CNN
+F 2 "" V 1230 4400 30  0000 C CNN
+F 3 "" H 1300 4400 30  0000 C CNN
+	1    1300 4400
+	0    1    1    0   
+$EndComp
+$Comp
+L VCC #PWR?
+U 1 1 543F1932
+P 1050 4300
+F 0 "#PWR?" H 1050 4400 30  0001 C CNN
+F 1 "VCC" H 1050 4400 30  0000 C CNN
+F 2 "" H 1050 4300 60  0000 C CNN
+F 3 "" H 1050 4300 60  0000 C CNN
+	1    1050 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	1050 4300 1550 4300
+Wire Wire Line
+	1050 4400 1050 4300
+Text Notes 850  1550 0    60   ~ 0
+Rset : \n - 20 mA : 22.6k\n - 30 mA : 14.7k\n - 40 mA : 10.84k
+Text Notes 2150 3950 0    60   ~ 0
+Bi color leds : which button cap to get ?\n - Can't take the transparent red one or green led could be "ugly"\n - Transparent white could be ugly on its own...
+Text Label 3450 4350 0    60   ~ 0
+led1_a
+Text Notes 5850 3900 0    60   ~ 0
+With single color leds, AS1115 can drive the loops state leds. This eliminate the needs of an additionnal MCP23017.\nThe button led resistances needs to be adjusted though (an additionnal resistance for each led ?)
 $EndSCHEMATC

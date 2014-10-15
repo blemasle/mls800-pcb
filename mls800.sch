@@ -1485,4 +1485,6 @@ Text Label 7600 3550 0    60   ~ 0
 UIINT
 Wire Wire Line
 	7600 3550 7850 3550
+Text Notes 5650 4550 0    60   ~ 0
+Do not forget restistances on SDA & SCL lines !
 $EndSCHEMATC

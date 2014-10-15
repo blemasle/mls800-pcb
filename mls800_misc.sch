@@ -64,23 +64,23 @@ $EndComp
 $Comp
 L VCC #PWR045
 U 1 1 5350562C
-P 2200 1100
-F 0 "#PWR045" H 2200 1200 30  0001 C CNN
-F 1 "VCC" H 2200 1200 30  0000 C CNN
-F 2 "" H 2200 1100 60  0000 C CNN
-F 3 "" H 2200 1100 60  0000 C CNN
-	1    2200 1100
-	1    0    0    -1  
+P 750 1500
+F 0 "#PWR045" H 750 1600 30  0001 C CNN
+F 1 "VCC" H 750 1600 30  0000 C CNN
+F 2 "" H 750 1500 60  0000 C CNN
+F 3 "" H 750 1500 60  0000 C CNN
+	1    750  1500
+	0    -1   -1   0   
 $EndComp
 $Comp
 L R R17
 U 1 1 53505640
-P 1000 1550
-F 0 "R17" V 1080 1550 40  0000 C CNN
-F 1 "1k" V 1007 1551 40  0000 C CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 930 1550 30  0001 C CNN
-F 3 "~" H 1000 1550 30  0000 C CNN
-	1    1000 1550
+P 1000 1600
+F 0 "R17" V 1080 1600 40  0000 C CNN
+F 1 "1k" V 1007 1601 40  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" V 930 1600 30  0001 C CNN
+F 3 "~" H 1000 1600 30  0000 C CNN
+	1    1000 1600
 	0    -1   -1   0   
 $EndComp
 Entry Wire Line
@@ -667,15 +667,10 @@ F 3 "" H 1100 2100 60  0000 C CNN
 	1    1100 2100
 	0    1    1    0   
 $EndComp
-$Comp
-L VCC #PWR?
-U 1 1 543C72E7
-P 750 1550
-F 0 "#PWR?" H 750 1650 30  0001 C CNN
-F 1 "VCC" H 750 1650 30  0000 C CNN
-F 2 "" H 750 1550 60  0000 C CNN
-F 3 "" H 750 1550 60  0000 C CNN
-	1    750  1550
-	0    -1   -1   0   
-$EndComp
+Text Notes 5950 1900 0    60   ~ 0
+Si 5GH, pour 5V : \n - Green : Foward Voltage = 2.2V => 2.8V => R = 112R\n - Red : Foward Voltage = 2V => 3V => R = 110R\n\nAu choix Rled = 100R ou 110R suivant le résultat des tests
+Wire Wire Line
+	750  1500 1250 1500
+Wire Wire Line
+	750  1600 750  1500
 $EndSCHEMATC
