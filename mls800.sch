@@ -1109,21 +1109,10 @@ F 3 "" H 2350 6550 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L PWR_FLAG #FLG037
-U 1 1 53F12BDD
-P 3050 6000
-F 0 "#FLG037" H 3050 6095 30  0001 C CNN
-F 1 "PWR_FLAG" H 3050 6180 30  0000 C CNN
-F 2 "" H 3050 6000 60  0000 C CNN
-F 3 "" H 3050 6000 60  0000 C CNN
-	1    3050 6000
-	1    0    0    -1  
-$EndComp
-$Comp
-L VCC #PWR038
+L VCC #PWR037
 U 1 1 53F12F8A
 P 2900 6000
-F 0 "#PWR038" H 2900 6100 30  0001 C CNN
+F 0 "#PWR037" H 2900 6100 30  0001 C CNN
 F 1 "VCC" H 2900 6100 30  0000 C CNN
 F 2 "" H 2900 6000 60  0000 C CNN
 F 3 "" H 2900 6000 60  0000 C CNN
@@ -1366,9 +1355,6 @@ Wire Wire Line
 Connection ~ 1700 1450
 Wire Wire Line
 	1700 6400 2750 6400
-Connection ~ 2900 6000
-Wire Wire Line
-	2750 6000 3050 6000
 Wire Wire Line
 	2150 3400 2850 3400
 Wire Wire Line
@@ -1486,4 +1472,8 @@ Do not forget restistances on SDA & SCL lines !
 Wire Wire Line
 	6150 2700 6150 2600
 NoConn ~ 9750 3750
+Text Notes 2300 4900 0    60   ~ 0
+Aref should be connected to something else than GND.\nCheck datasheet at chatper 24.2 page 294
+Wire Wire Line
+	2900 6000 2750 6000
 $EndSCHEMATC
