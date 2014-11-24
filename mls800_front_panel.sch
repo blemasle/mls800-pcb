@@ -40,7 +40,7 @@ EELAYER 24 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 3
 Title ""
 Date ""
 Rev ""
@@ -227,10 +227,10 @@ Wire Bus Line
 Wire Bus Line
 	3750 1700 7750 1700
 $Comp
-L VCC #PWR0102
+L VCC #PWR101
 U 1 1 543F0201
 P 1050 950
-F 0 "#PWR0102" H 1050 1050 30  0001 C CNN
+F 0 "#PWR101" H 1050 1050 30  0001 C CNN
 F 1 "VCC" H 1050 1050 30  0000 C CNN
 F 2 "" H 1050 950 60  0000 C CNN
 F 3 "" H 1050 950 60  0000 C CNN
@@ -238,10 +238,10 @@ F 3 "" H 1050 950 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DGND #PWR0103
+L DGND #PWR102
 U 1 1 543F021F
 P 2500 3250
-F 0 "#PWR0103" H 2500 3250 40  0001 C CNN
+F 0 "#PWR102" H 2500 3250 40  0001 C CNN
 F 1 "DGND" H 2500 3180 40  0000 C CNN
 F 2 "" H 2500 3250 60  0000 C CNN
 F 3 "" H 2500 3250 60  0000 C CNN
@@ -273,7 +273,7 @@ Text Notes 850  1550 0    60   ~ 0
 Rset : \n - 20 mA : 22.6k\n - 30 mA : 14.7k\n - 40 mA : 10.84k
 Text Notes 8050 4600 0    60   ~ 0
 Bi color leds : which button cap to get ?\n - Can't take the transparent red one or green led could be "ugly"\n - Transparent white could be ugly on its own...
-Text Notes 5650 5750 0    60   ~ 0
+Text Notes 5650 6450 0    60   ~ 0
 With single color leds, AS1115 can drive the loops state leds. This eliminate the needs of an additionnal MCP23017.\nThe button led resistances needs to be adjusted though (an additionnal resistance for each led ?)
 $Comp
 L SW_TACT_LED SW12
@@ -435,17 +435,8 @@ Connection ~ 5050 4300
 Connection ~ 5050 4550
 Connection ~ 5050 4800
 Connection ~ 5050 5050
-Connection ~ 5050 5300
-Wire Wire Line
-	5050 3550 5050 5500
-Wire Wire Line
-	5050 5500 3750 5500
-Wire Wire Line
-	3750 5500 3750 2700
-Wire Wire Line
-	3750 2700 3450 2700
 Wire Bus Line
-	4050 2750 4050 5200
+	4050 2750 4050 5950
 $Comp
 L SW_TACT_LED SW12
 U 2 1 54405D5F
@@ -707,8 +698,6 @@ Entry Wire Line
 Entry Wire Line
 	5550 5200 5650 5300
 Wire Bus Line
-	5550 3150 5550 5200
-Wire Bus Line
 	7750 3650 7400 3650
 NoConn ~ 3450 1500
 NoConn ~ 3450 1600
@@ -721,4 +710,60 @@ Entry Bus Bus
 	4050 3050 4150 3150
 Wire Bus Line
 	4150 3150 5550 3150
+$Comp
+L SW_TACT_LED SW20
+U 1 1 5473DCF9
+P 4750 5750
+F 0 "SW20" H 4550 5900 60  0000 C CNN
+F 1 "SW_TACT_LED" H 4720 5650 60  0001 C CNN
+F 2 "" H 4750 5750 60  0000 C CNN
+F 3 "" H 4750 5750 60  0000 C CNN
+	1    4750 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_TACT_LED SW21
+U 1 1 5473DD5D
+P 4750 6050
+F 0 "SW21" H 4550 6200 60  0000 C CNN
+F 1 "SW_TACT_LED" H 4720 5950 60  0001 C CNN
+F 2 "" H 4750 6050 60  0000 C CNN
+F 3 "" H 4750 6050 60  0000 C CNN
+	1    4750 6050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5750 5050 6200
+Connection ~ 5050 6050
+Entry Wire Line
+	4050 5650 4150 5750
+Entry Wire Line
+	4050 5950 4150 6050
+Wire Wire Line
+	5050 5750 4950 5750
+Wire Wire Line
+	5050 6050 4950 6050
+Wire Wire Line
+	4450 5750 4150 5750
+Wire Wire Line
+	4450 6050 4150 6050
+Text Label 4450 5750 2    60   ~ 0
+SEGE
+Text Label 4450 6050 2    60   ~ 0
+SEGF
+Wire Wire Line
+	5050 3300 5050 5300
+Wire Wire Line
+	5050 3300 3450 3300
+Wire Wire Line
+	3450 3300 3450 2800
+Connection ~ 5050 3550
+Wire Wire Line
+	3450 2700 3750 2700
+Wire Wire Line
+	3750 2700 3750 6200
+Wire Wire Line
+	3750 6200 5050 6200
+Wire Bus Line
+	5550 3150 5550 5200
 $EndSCHEMATC
