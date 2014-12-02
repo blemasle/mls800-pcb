@@ -1,3 +1,5 @@
 (fp_lib_table
   (lib (name Imported)(type KiCad)(uri ${KIPRJMOD}\footprint\Imported.pretty)(options "")(descr "Externals modules"))
+  (lib (name Custom-device)(type KiCad)(uri ${KIPRJMOD}\footprint\Custom-device.pretty)(options "")(descr "Custom device footprints"))
+  (lib (name Custom-display)(type KiCad)(uri ${KIPRJMOD}\footprint\Custom-display.pretty)(options "")(descr "Custom display footprints"))
 )
