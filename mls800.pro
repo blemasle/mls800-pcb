@@ -1,10 +1,6 @@
-update=15/10/2014 23:50:01
+update=04/12/2014 01:03:20
 version=1
-last_client=eeschema
-[general]
-version=1
-RootSch=
-BoardNm=
+last_client=kicad
 [cvpcb]
 version=1
 NetIExt=net
@@ -69,3 +65,5 @@ LibName33=custom-conn
 LibName34=custom-device
 LibName35=custom-display
 LibName36=custom-micro
+[general]
+version=1
