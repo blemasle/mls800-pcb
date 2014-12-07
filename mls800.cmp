@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 04/12/2014 00:38:10
+Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 07/12/2014 22:26:55
 
 BeginCmp
 TimeStamp = /543C4BC4/543EEF72;
@@ -256,7 +256,7 @@ BeginCmp
 TimeStamp = /5345D287/53F151BC;
 Reference = J2;
 ValeurCmp = JACK_2P_SW;
-IdModule  = ;
+IdModule  = Custom-conn:NRJ4HF-1;
 EndCmp
 
 BeginCmp
@@ -319,7 +319,7 @@ BeginCmp
 TimeStamp = /5345D287/53F160B0;
 Reference = J11;
 ValeurCmp = JACK_2P_SW;
-IdModule  = ;
+IdModule  = Custom-conn:NRJ4HF-1;
 EndCmp
 
 BeginCmp
