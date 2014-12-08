@@ -1,4 +1,4 @@
-update=04/12/2014 01:03:20
+update=08/12/2014 23:43:41
 version=1
 last_client=kicad
 [cvpcb]
@@ -25,6 +25,8 @@ SolderMaskMinWidth=0.000000000000
 DrawSegmentWidth=0.200000000000
 BoardOutlineThickness=0.100000000000
 ModuleOutlineThickness=0.150000000000
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=library
@@ -65,5 +67,4 @@ LibName33=custom-conn
 LibName34=custom-device
 LibName35=custom-display
 LibName36=custom-micro
-[general]
-version=1
+LibName37=library/custom-regul

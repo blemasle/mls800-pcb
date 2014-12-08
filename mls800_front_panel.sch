@@ -35,6 +35,7 @@ LIBS:custom-conn
 LIBS:custom-device
 LIBS:custom-display
 LIBS:custom-micro
+LIBS:custom-regul
 LIBS:mls800-cache
 EELAYER 25 0
 EELAYER END

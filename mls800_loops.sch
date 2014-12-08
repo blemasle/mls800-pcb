@@ -35,6 +35,7 @@ LIBS:custom-conn
 LIBS:custom-device
 LIBS:custom-display
 LIBS:custom-micro
+LIBS:custom-regul
 LIBS:mls800-cache
 EELAYER 25 0
 EELAYER END
@@ -1940,7 +1941,7 @@ U 1 1 53F160B0
 P 10600 6150
 F 0 "J11" H 10250 5900 60  0000 C CNN
 F 1 "JACK_2P_SW" H 10750 6400 60  0000 C CNN
-F 2 "Custom-conn:NSJ8HL" H 10600 6150 60  0001 C CNN
+F 2 "Custom-conn:NRJ4HF-1" H 10600 6150 60  0001 C CNN
 F 3 "~" H 10600 6150 60  0000 C CNN
 	1    10600 6150
 	-1   0    0    1   
