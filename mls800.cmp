@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 07/12/2014 23:41:47
+Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 09/12/2014 00:06:15
 
 BeginCmp
 TimeStamp = /543C4BC4/543EEF72;
@@ -722,9 +722,9 @@ IdModule  = Custom-device:MEC-5G;
 EndCmp
 
 BeginCmp
-TimeStamp = /53505873;
+TimeStamp = /548647A9;
 Reference = U1;
-ValeurCmp = LM340-5.0;
+ValeurCmp = LM340MP-5.0/NOPB;
 IdModule  = SMD_Packages:SOT-223;
 EndCmp
 
@@ -732,14 +732,14 @@ BeginCmp
 TimeStamp = /53507613;
 Reference = U2;
 ValeurCmp = ATMEGA32U4;
-IdModule  = Housings_QFP:lqfp44;
+IdModule  = Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A7B7B9;
 Reference = U3;
 ValeurCmp = 24LC256;
-IdModule  = Housings_SOIC:SOIC-8_N;
+IdModule  = Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;
 EndCmp
 
 BeginCmp
