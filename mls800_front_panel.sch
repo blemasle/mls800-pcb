@@ -364,8 +364,6 @@ F 3 "" H 4750 5300 60  0000 C CNN
 	1    4750 5300
 	1    0    0    -1  
 $EndComp
-Entry Bus Bus
-	3950 2650 4050 2750
 Text Label 4450 3550 2    60   ~ 0
 SEGA
 Text Label 4450 3800 2    60   ~ 0
@@ -436,8 +434,6 @@ Connection ~ 5050 4300
 Connection ~ 5050 4550
 Connection ~ 5050 4800
 Connection ~ 5050 5050
-Wire Bus Line
-	4050 2750 4050 5950
 $Comp
 L SW_TACT_LED SW2
 U 2 1 54405D5F
@@ -603,8 +599,6 @@ Text Notes 8050 5350 0    60   ~ 0
 Si 5GH, pour 5V : \n - Green : Foward Voltage = 2.2V => 2.8V => R = 112R\n - Red : Foward Voltage = 2V => 3V => R = 110R\n\nAu choix Rled = 100R ou 110R suivant le résultat des tests
 Wire Bus Line
 	7750 1700 7750 3650
-Entry Bus Bus
-	4050 3050 4150 3150
 Wire Bus Line
 	4150 3150 5550 3150
 $Comp
@@ -663,4 +657,8 @@ Wire Wire Line
 	3750 6200 5050 6200
 Wire Bus Line
 	5550 3150 5550 5200
+Wire Bus Line
+	4150 2650 4150 3150
+Wire Bus Line
+	4050 2650 4050 5950
 $EndSCHEMATC
