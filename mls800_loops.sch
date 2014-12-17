@@ -133,21 +133,21 @@ LH7
 Text Label 3000 1800 0    28   ~ 0
 LH8
 Text Label 3000 1950 0    28   ~ 0
-LL1
-Text Label 3000 2050 0    28   ~ 0
-LL2
-Text Label 3000 2150 0    28   ~ 0
-LL3
-Text Label 3000 2250 0    28   ~ 0
-LL4
-Text Label 3000 2350 0    28   ~ 0
-LL5
-Text Label 3000 2450 0    28   ~ 0
-LL6
-Text Label 3000 2550 0    28   ~ 0
-LL7
-Text Label 3000 2650 0    28   ~ 0
 LL8
+Text Label 3000 2050 0    28   ~ 0
+LL7
+Text Label 3000 2150 0    28   ~ 0
+LL6
+Text Label 3000 2250 0    28   ~ 0
+LL5
+Text Label 3000 2350 0    28   ~ 0
+LL4
+Text Label 3000 2450 0    28   ~ 0
+LL3
+Text Label 3000 2550 0    28   ~ 0
+LL2
+Text Label 3000 2650 0    28   ~ 0
+LL1
 Text Notes 850  5850 0    197  ~ 39
 LOOPS
 $Comp
