@@ -169,92 +169,6 @@ Entry Wire Line
 	4200 2400 4300 2500
 Entry Wire Line
 	4200 2500 4300 2600
-Wire Wire Line
-	3650 1000 3450 1000
-Wire Wire Line
-	3450 1100 3650 1100
-Wire Wire Line
-	3650 1200 3450 1200
-Wire Wire Line
-	3450 1300 3650 1300
-Wire Wire Line
-	7650 2400 7450 2400
-Wire Wire Line
-	7650 2300 7450 2300
-Wire Wire Line
-	7650 2200 7450 2200
-Wire Wire Line
-	7650 2100 7450 2100
-Wire Wire Line
-	3750 2550 3450 2550
-Wire Wire Line
-	3450 2450 3750 2450
-Wire Wire Line
-	3750 2350 3450 2350
-Wire Wire Line
-	3450 2250 3750 2250
-Wire Wire Line
-	3750 2150 3450 2150
-Wire Wire Line
-	3750 2050 3450 2050
-Wire Wire Line
-	3450 1950 3750 1950
-Wire Wire Line
-	3750 1850 3450 1850
-Wire Wire Line
-	4600 2600 4300 2600
-Wire Wire Line
-	4300 2500 4600 2500
-Wire Wire Line
-	4600 2400 4300 2400
-Wire Wire Line
-	4300 2300 4600 2300
-Wire Wire Line
-	4600 2200 4300 2200
-Wire Wire Line
-	4600 2100 4300 2100
-Wire Wire Line
-	4300 2000 4600 2000
-Wire Wire Line
-	4600 1900 4300 1900
-Wire Bus Line
-	3850 1950 3850 2650
-Wire Bus Line
-	3850 2650 4200 2650
-Wire Bus Line
-	4200 2650 4200 1800
-Wire Bus Line
-	3750 1100 3750 1700
-Wire Bus Line
-	3750 1700 7750 1700
-$Comp
-L VCC #PWR088
-U 1 1 543F0201
-P 1050 950
-F 0 "#PWR088" H 1050 1050 30  0001 C CNN
-F 1 "VCC" H 1050 1050 30  0000 C CNN
-F 2 "" H 1050 950 60  0000 C CNN
-F 3 "" H 1050 950 60  0000 C CNN
-	1    1050 950 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L DGND #PWR089
-U 1 1 543F021F
-P 2500 3250
-F 0 "#PWR089" H 2500 3250 40  0001 C CNN
-F 1 "DGND" H 2500 3180 40  0000 C CNN
-F 2 "" H 2500 3250 60  0000 C CNN
-F 3 "" H 2500 3250 60  0000 C CNN
-	1    2500 3250
-	1    0    0    -1  
-$EndComp
-Text HLabel 1550 2400 0    60   Input ~ 0
-SDA
-Text HLabel 1550 2500 0    60   Input ~ 0
-SCL
-Text HLabel 1550 2600 0    60   Input ~ 0
-IRQ
 $Comp
 L R R19
 U 1 1 543F1E5E
@@ -266,10 +180,6 @@ F 3 "" H 1300 1050 30  0000 C CNN
 	1    1300 1050
 	0    1    1    0   
 $EndComp
-Wire Wire Line
-	1050 1050 1050 950 
-Wire Wire Line
-	1050 950  1550 950 
 Text Notes 850  1550 0    60   ~ 0
 Rset : \n - 20 mA : 22.6k\n - 30 mA : 14.7k\n - 40 mA : 10.84k
 Text Notes 8050 4600 0    60   ~ 0
@@ -380,22 +290,6 @@ Text Label 4450 5300 2    60   ~ 0
 SEGDP
 Text Label 4450 5050 2    60   ~ 0
 SEGG
-Wire Wire Line
-	4450 5300 4150 5300
-Wire Wire Line
-	4450 5050 4150 5050
-Wire Wire Line
-	4450 4800 4150 4800
-Wire Wire Line
-	4450 4550 4150 4550
-Wire Wire Line
-	4450 4300 4150 4300
-Wire Wire Line
-	4450 4050 4150 4050
-Wire Wire Line
-	4450 3800 4150 3800
-Wire Wire Line
-	4450 3550 4150 3550
 Entry Wire Line
 	4050 3450 4150 3550
 Entry Wire Line
@@ -412,28 +306,6 @@ Entry Wire Line
 	4050 4950 4150 5050
 Entry Wire Line
 	4050 5200 4150 5300
-Wire Wire Line
-	4950 3550 5050 3550
-Wire Wire Line
-	4950 3800 5050 3800
-Wire Wire Line
-	5050 4050 4950 4050
-Wire Wire Line
-	5050 4300 4950 4300
-Wire Wire Line
-	5050 4550 4950 4550
-Wire Wire Line
-	5050 4800 4950 4800
-Wire Wire Line
-	5050 5050 4950 5050
-Wire Wire Line
-	5050 5300 4950 5300
-Connection ~ 5050 3800
-Connection ~ 5050 4050
-Connection ~ 5050 4300
-Connection ~ 5050 4550
-Connection ~ 5050 4800
-Connection ~ 5050 5050
 $Comp
 L SW_TACT_LED SW2
 U 2 1 54405D5F
@@ -524,22 +396,10 @@ F 3 "" H 6850 5300 60  0000 C CNN
 $EndComp
 Entry Wire Line
 	3650 1400 3750 1500
-Wire Wire Line
-	3650 1400 3450 1400
 Text Label 3450 1400 0    60   ~ 0
 LEDS
-Wire Wire Line
-	7050 3550 7050 5300
-Connection ~ 7050 5050
-Connection ~ 7050 4800
-Connection ~ 7050 4550
-Connection ~ 7050 4300
-Connection ~ 7050 4050
-Connection ~ 7050 3800
 Entry Wire Line
 	7300 3550 7400 3650
-Wire Wire Line
-	7300 3550 7050 3550
 Text Label 7050 3550 0    60   ~ 0
 LEDS
 Text Label 5950 3550 2    60   ~ 0
@@ -558,22 +418,6 @@ Text Label 5950 5300 2    60   ~ 0
 SEGDP
 Text Label 5950 4050 2    60   ~ 0
 SEGC
-Wire Wire Line
-	5650 3550 6550 3550
-Wire Wire Line
-	5650 3800 6550 3800
-Wire Wire Line
-	5650 4050 6550 4050
-Wire Wire Line
-	5650 4300 6550 4300
-Wire Wire Line
-	5650 4550 6550 4550
-Wire Wire Line
-	5650 4800 6550 4800
-Wire Wire Line
-	5650 5050 6550 5050
-Wire Wire Line
-	5650 5300 6550 5300
 Entry Wire Line
 	5550 3450 5650 3550
 Entry Wire Line
@@ -590,17 +434,11 @@ Entry Wire Line
 	5550 4950 5650 5050
 Entry Wire Line
 	5550 5200 5650 5300
-Wire Bus Line
-	7750 3650 7400 3650
 NoConn ~ 3450 1500
 NoConn ~ 3450 1600
 NoConn ~ 3450 1700
 Text Notes 8050 5350 0    60   ~ 0
 Si 5GH, pour 5V : \n - Green : Foward Voltage = 2.2V => 2.8V => R = 112R\n - Red : Foward Voltage = 2V => 3V => R = 110R\n\nAu choix Rled = 100R ou 110R suivant le résultat des tests
-Wire Bus Line
-	7750 1700 7750 3650
-Wire Bus Line
-	4150 3150 5550 3150
 $Comp
 L SW_TACT_LED SW10
 U 1 1 5473DCF9
@@ -623,13 +461,229 @@ F 3 "" H 4750 6050 60  0000 C CNN
 	1    4750 6050
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5050 5750 5050 6200
-Connection ~ 5050 6050
 Entry Wire Line
 	4050 5650 4150 5750
 Entry Wire Line
 	4050 5950 4150 6050
+Text Label 4450 5750 2    60   ~ 0
+SEGE
+Text Label 4450 6050 2    60   ~ 0
+SEGF
+$Comp
+L R R8
+U 1 1 54972E4B
+P 6150 5550
+F 0 "R8" V 6230 5550 40  0000 C CNN
+F 1 "10K" V 6157 5551 40  0000 C CNN
+F 2 "" V 6080 5550 30  0000 C CNN
+F 3 "" H 6150 5550 30  0000 C CNN
+	1    6150 5550
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_TACT_LED SW10
+U 2 1 54972ED8
+P 6850 5550
+F 0 "SW10" H 6650 5700 60  0000 C CNN
+F 1 "SW_TACT_LED" H 6820 5450 60  0001 C CNN
+F 2 "" H 6850 5550 60  0000 C CNN
+F 3 "" H 6850 5550 60  0000 C CNN
+	2    6850 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R5
+U 1 1 54972FD3
+P 6150 5800
+F 0 "R5" V 6230 5800 40  0000 C CNN
+F 1 "10K" V 6157 5801 40  0000 C CNN
+F 2 "" V 6080 5800 30  0000 C CNN
+F 3 "" H 6150 5800 30  0000 C CNN
+	1    6150 5800
+	0    1    1    0   
+$EndComp
+$Comp
+L SW_TACT_LED SW11
+U 2 1 5497300D
+P 6850 5800
+F 0 "SW11" H 6650 5950 60  0000 C CNN
+F 1 "SW_TACT_LED" H 6820 5700 60  0001 C CNN
+F 2 "" H 6850 5800 60  0000 C CNN
+F 3 "" H 6850 5800 60  0000 C CNN
+	2    6850 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R7
+U 1 1 5497458F
+P 1550 2850
+F 0 "R7" V 1630 2850 40  0000 C CNN
+F 1 "10K" V 1557 2851 40  0000 C CNN
+F 2 "" V 1480 2850 30  0000 C CNN
+F 3 "" H 1550 2850 30  0000 C CNN
+	1    1550 2850
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_02X03 P5
+U 1 1 5497CC76
+P 1450 4150
+F 0 "P5" H 1450 4350 50  0000 C CNN
+F 1 "CONN_02X03" H 1450 3950 50  0000 C CNN
+F 2 "" H 1450 2950 60  0000 C CNN
+F 3 "" H 1450 2950 60  0000 C CNN
+	1    1450 4150
+	1    0    0    -1  
+$EndComp
+Text HLabel 900  4050 0    60   Input ~ 0
+SDA
+Text HLabel 2050 4050 2    60   Input ~ 0
+VCC
+Text HLabel 2050 4250 2    60   Input ~ 0
+DGND
+Text HLabel 2050 4150 2    60   Input ~ 0
+EDIT_LED
+Text HLabel 900  4250 0    60   Input ~ 0
+IRQ
+Text HLabel 900  4150 0    60   Input ~ 0
+SCL
+Wire Wire Line
+	3650 1000 3450 1000
+Wire Wire Line
+	3450 1100 3650 1100
+Wire Wire Line
+	3650 1200 3450 1200
+Wire Wire Line
+	3450 1300 3650 1300
+Wire Wire Line
+	7650 2400 7450 2400
+Wire Wire Line
+	7650 2300 7450 2300
+Wire Wire Line
+	7650 2200 7450 2200
+Wire Wire Line
+	7650 2100 7450 2100
+Wire Wire Line
+	3750 2550 3450 2550
+Wire Wire Line
+	3450 2450 3750 2450
+Wire Wire Line
+	3750 2350 3450 2350
+Wire Wire Line
+	3450 2250 3750 2250
+Wire Wire Line
+	3750 2150 3450 2150
+Wire Wire Line
+	3750 2050 3450 2050
+Wire Wire Line
+	3450 1950 3750 1950
+Wire Wire Line
+	3750 1850 3450 1850
+Wire Wire Line
+	4600 2600 4300 2600
+Wire Wire Line
+	4300 2500 4600 2500
+Wire Wire Line
+	4600 2400 4300 2400
+Wire Wire Line
+	4300 2300 4600 2300
+Wire Wire Line
+	4600 2200 4300 2200
+Wire Wire Line
+	4600 2100 4300 2100
+Wire Wire Line
+	4300 2000 4600 2000
+Wire Wire Line
+	4600 1900 4300 1900
+Wire Bus Line
+	3850 1950 3850 2650
+Wire Bus Line
+	3850 2650 4200 2650
+Wire Bus Line
+	4200 2650 4200 1800
+Wire Bus Line
+	3750 1100 3750 1700
+Wire Bus Line
+	3750 1700 7750 1700
+Wire Wire Line
+	1050 1050 1050 950 
+Wire Wire Line
+	850  950  1550 950 
+Wire Wire Line
+	4450 5300 4150 5300
+Wire Wire Line
+	4450 5050 4150 5050
+Wire Wire Line
+	4450 4800 4150 4800
+Wire Wire Line
+	4450 4550 4150 4550
+Wire Wire Line
+	4450 4300 4150 4300
+Wire Wire Line
+	4450 4050 4150 4050
+Wire Wire Line
+	4450 3800 4150 3800
+Wire Wire Line
+	4450 3550 4150 3550
+Wire Wire Line
+	4950 3550 5050 3550
+Wire Wire Line
+	5050 3800 4950 3800
+Wire Wire Line
+	5050 4050 4950 4050
+Wire Wire Line
+	5050 4300 4950 4300
+Wire Wire Line
+	5050 4550 4950 4550
+Wire Wire Line
+	5050 4800 4950 4800
+Wire Wire Line
+	5050 5050 4950 5050
+Wire Wire Line
+	5050 5300 4950 5300
+Connection ~ 5050 3800
+Connection ~ 5050 4050
+Connection ~ 5050 4300
+Connection ~ 5050 4550
+Connection ~ 5050 4800
+Connection ~ 5050 5050
+Wire Wire Line
+	3650 1400 3450 1400
+Wire Wire Line
+	7050 3550 7050 5300
+Connection ~ 7050 5050
+Connection ~ 7050 4800
+Connection ~ 7050 4550
+Connection ~ 7050 4300
+Connection ~ 7050 4050
+Connection ~ 7050 3800
+Wire Wire Line
+	7300 3550 7050 3550
+Wire Wire Line
+	5650 3550 6550 3550
+Wire Wire Line
+	5650 3800 6550 3800
+Wire Wire Line
+	5650 4050 6550 4050
+Wire Wire Line
+	5650 4300 6550 4300
+Wire Wire Line
+	5650 4550 6550 4550
+Wire Wire Line
+	5650 4800 6550 4800
+Wire Wire Line
+	5650 5050 6550 5050
+Wire Wire Line
+	5650 5300 6550 5300
+Wire Bus Line
+	7750 3650 7400 3650
+Wire Bus Line
+	7750 1700 7750 3650
+Wire Bus Line
+	4150 3150 5550 3150
+Wire Wire Line
+	5050 5750 5050 6200
+Connection ~ 5050 6050
 Wire Wire Line
 	5050 5750 4950 5750
 Wire Wire Line
@@ -638,10 +692,6 @@ Wire Wire Line
 	4450 5750 4150 5750
 Wire Wire Line
 	4450 6050 4150 6050
-Text Label 4450 5750 2    60   ~ 0
-SEGE
-Text Label 4450 6050 2    60   ~ 0
-SEGF
 Wire Wire Line
 	5050 3300 5050 5300
 Wire Wire Line
@@ -661,4 +711,71 @@ Wire Bus Line
 	4150 2650 4150 3150
 Wire Bus Line
 	4050 2650 4050 5950
+Wire Wire Line
+	6400 5550 6550 5550
+Wire Wire Line
+	6400 5800 6550 5800
+Wire Wire Line
+	1400 2600 1550 2600
+Wire Wire Line
+	1200 4050 900  4050
+Wire Wire Line
+	900  4150 1200 4150
+Wire Wire Line
+	900  4250 1200 4250
+Wire Wire Line
+	2050 4050 1700 4050
+Wire Wire Line
+	1700 4150 2050 4150
+Wire Wire Line
+	1700 4250 2050 4250
+Text Label 1700 4050 0    60   ~ 0
+VCC
+Text Label 1700 4150 0    60   ~ 0
+LED
+Text Label 1700 4250 0    60   ~ 0
+DGND
+Text Label 1200 4050 2    60   ~ 0
+SDA
+Text Label 1200 4150 2    60   ~ 0
+SCl
+Text Label 1200 4250 2    60   ~ 0
+IRQ
+Connection ~ 1050 950 
+Text Label 850  950  0    60   ~ 0
+VCC
+Wire Wire Line
+	2500 3250 2500 3550
+Text Label 2500 3550 0    60   ~ 0
+DGND
+Text Label 1550 3350 0    60   ~ 0
+DGND
+Wire Wire Line
+	1550 2500 1400 2500
+Wire Wire Line
+	1550 2400 1400 2400
+Text Label 1400 2400 0    60   ~ 0
+SDA
+Text Label 1400 2500 0    60   ~ 0
+SCL
+Text Label 1400 2600 0    60   ~ 0
+IRQ
+Wire Wire Line
+	1550 3350 1550 3100
+Wire Wire Line
+	5900 5550 5700 5550
+Text Label 5700 5550 0    60   ~ 0
+LED
+Wire Wire Line
+	5900 5800 5700 5800
+Text Label 5700 5800 0    60   ~ 0
+VCC
+Wire Wire Line
+	7050 5550 7300 5550
+Wire Wire Line
+	7050 5800 7300 5800
+Text Label 7300 5800 2    60   ~ 0
+DGND
+Text Label 7300 5550 2    60   ~ 0
+DGND
 $EndSCHEMATC
