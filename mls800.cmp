@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 09/12/2014 00:06:15
+Cmp-Mod V01 Created by Cvpcb (2014-12-01 BZR 5309)-product   date = 15/01/2015 21:57:58
 
 BeginCmp
 TimeStamp = /543C4BC4/543EEF72;
@@ -87,8 +87,8 @@ EndCmp
 BeginCmp
 TimeStamp = /535068E4;
 Reference = D1;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
@@ -115,120 +115,120 @@ EndCmp
 BeginCmp
 TimeStamp = /53A8E240;
 Reference = D5;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F1503F;
 Reference = D6;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15053;
 Reference = D7;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15A15;
 Reference = D8;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15A29;
 Reference = D9;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15C7E;
 Reference = D10;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15C92;
 Reference = D11;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15CF1;
 Reference = D12;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15D05;
 Reference = D13;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15EF4;
 Reference = D14;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15F01;
 Reference = D15;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15F5B;
 Reference = D16;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15F6F;
 Reference = D17;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15FCF;
 Reference = D18;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F15FE3;
 Reference = D19;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F16042;
 Reference = D20;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
 TimeStamp = /5345D287/53F16056;
 Reference = D21;
-ValeurCmp = 1N4148;
-IdModule  = Imported:SOD-123;
+ValeurCmp = CD1206-S01575;
+IdModule  = SMD_Packages:SMD-1206_Pol;
 EndCmp
 
 BeginCmp
@@ -333,14 +333,28 @@ BeginCmp
 TimeStamp = /53A8E246;
 Reference = P2;
 ValeurCmp = DIN_5;
-IdModule  = Imported:DIN_5;
+IdModule  = Custom-conn:DIN_5;
 EndCmp
 
 BeginCmp
 TimeStamp = /53A8E24D;
 Reference = P3;
 ValeurCmp = DIN_5;
-IdModule  = Imported:DIN_5;
+IdModule  = Custom-conn:DIN_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /54971677;
+Reference = P4;
+ValeurCmp = CONN_02X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
+EndCmp
+
+BeginCmp
+TimeStamp = /543C4BC4/5497CC76;
+Reference = P5;
+ValeurCmp = CONN_02X03;
+IdModule  = Pin_Headers:Pin_Header_Straight_2x03;
 EndCmp
 
 BeginCmp
@@ -463,20 +477,6 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /53F1BBDC;
-Reference = R2;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
-EndCmp
-
-BeginCmp
-TimeStamp = /53F1BC0F;
-Reference = R3;
-ValeurCmp = 0;
-IdModule  = Resistors_SMD:R_0805_HandSoldering;
-EndCmp
-
-BeginCmp
 TimeStamp = /535063AC;
 Reference = R4;
 ValeurCmp = 10k;
@@ -484,9 +484,9 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A8C30C;
+TimeStamp = /543C4BC4/54972FD3;
 Reference = R5;
-ValeurCmp = 1k;
+ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
@@ -498,16 +498,16 @@ IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /54743948;
+TimeStamp = /543C4BC4/5497458F;
 Reference = R7;
 ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
 BeginCmp
-TimeStamp = /53A8C756;
+TimeStamp = /543C4BC4/54972E4B;
 Reference = R8;
-ValeurCmp = 1k;
+ValeurCmp = 10K;
 IdModule  = Resistors_SMD:R_0805_HandSoldering;
 EndCmp
 
@@ -708,14 +708,14 @@ IdModule  = Custom-device:MEC-5G;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B9C171;
+TimeStamp = /543C4BC4/5473DCF9;
 Reference = SW10;
 ValeurCmp = SW_TACT_LED;
 IdModule  = Custom-device:MEC-5G;
 EndCmp
 
 BeginCmp
-TimeStamp = /53B9C192;
+TimeStamp = /543C4BC4/5473DD5D;
 Reference = SW11;
 ValeurCmp = SW_TACT_LED;
 IdModule  = Custom-device:MEC-5G;

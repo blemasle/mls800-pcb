@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "E:/Working Copies/Engineering/mls800/kicad/mls800.sch")
-    (date "14/01/2015 23:27:23")
+    (date "16/01/2015 01:07:04")
     (tool "Eeschema (2014-12-01 BZR 5309)-product"))
   (components
     (comp (ref D2)
@@ -672,6 +672,53 @@
       (sheetpath (names "/Front panel/") (tstamps /543C4BC4/))
       (tstamp 5497CC76)))
   (libparts
+    (libpart (lib conn) (part CONN_02X03)
+      (footprints
+        (fp Pin_Header_Straight_2X03)
+        (fp Pin_Header_Angled_2X03)
+        (fp Socket_Strip_Straight_2X03)
+        (fp Socket_Strip_Angled_2X03))
+      (fields
+        (field (name Reference) P)
+        (field (name Value) CONN_02X03))
+      (pins
+        (pin (num 1) (name P1) (type passive))
+        (pin (num 2) (name P2) (type passive))
+        (pin (num 3) (name P3) (type passive))
+        (pin (num 4) (name P4) (type passive))
+        (pin (num 5) (name P5) (type passive))
+        (pin (num 6) (name P6) (type passive))))
+    (libpart (lib conn) (part DIN_5)
+      (description "Connecteur Din 5 broches")
+      (fields
+        (field (name Reference) P)
+        (field (name Value) DIN_5))
+      (pins
+        (pin (num 1) (name 1) (type passive))
+        (pin (num 2) (name 2) (type passive))
+        (pin (num 3) (name 3) (type passive))
+        (pin (num 4) (name 4) (type passive))
+        (pin (num 5) (name 5) (type passive))))
+    (libpart (lib conn) (part USB)
+      (fields
+        (field (name Reference) J)
+        (field (name Value) USB))
+      (pins
+        (pin (num 1) (name Vbus) (type power_out))
+        (pin (num 2) (name D-) (type BiDi))
+        (pin (num 3) (name D+) (type BiDi))
+        (pin (num 4) (name GND) (type power_in))
+        (pin (num 5) (name Shield_1) (type passive))
+        (pin (num 6) (name Shield_2) (type passive))))
+    (libpart (lib conn) (part BARREL_JACK)
+      (description "DC Barrel Jack")
+      (fields
+        (field (name Reference) CON)
+        (field (name Value) BARREL_JACK))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive))
+        (pin (num 3) (name ~) (type passive))))
     (libpart (lib device) (part C)
       (description "Condensateur non polarise")
       (footprints
@@ -760,61 +807,6 @@
       (pins
         (pin (num 1) (name ~) (type passive))
         (pin (num 2) (name ~) (type passive))))
-    (libpart (lib device) (part VR)
-      (description VARISTANCE)
-      (fields
-        (field (name Reference) VR)
-        (field (name Value) VR))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))))
-    (libpart (lib conn) (part BARREL_JACK)
-      (description "DC Barrel Jack")
-      (fields
-        (field (name Reference) CON)
-        (field (name Value) BARREL_JACK))
-      (pins
-        (pin (num 1) (name ~) (type passive))
-        (pin (num 2) (name ~) (type passive))
-        (pin (num 3) (name ~) (type passive))))
-    (libpart (lib conn) (part CONN_02X03)
-      (footprints
-        (fp Pin_Header_Straight_2X03)
-        (fp Pin_Header_Angled_2X03)
-        (fp Socket_Strip_Straight_2X03)
-        (fp Socket_Strip_Angled_2X03))
-      (fields
-        (field (name Reference) P)
-        (field (name Value) CONN_02X03))
-      (pins
-        (pin (num 1) (name P1) (type passive))
-        (pin (num 2) (name P2) (type passive))
-        (pin (num 3) (name P3) (type passive))
-        (pin (num 4) (name P4) (type passive))
-        (pin (num 5) (name P5) (type passive))
-        (pin (num 6) (name P6) (type passive))))
-    (libpart (lib conn) (part DIN_5)
-      (description "Connecteur Din 5 broches")
-      (fields
-        (field (name Reference) P)
-        (field (name Value) DIN_5))
-      (pins
-        (pin (num 1) (name 1) (type passive))
-        (pin (num 2) (name 2) (type passive))
-        (pin (num 3) (name 3) (type passive))
-        (pin (num 4) (name 4) (type passive))
-        (pin (num 5) (name 5) (type passive))))
-    (libpart (lib conn) (part USB)
-      (fields
-        (field (name Reference) J)
-        (field (name Value) USB))
-      (pins
-        (pin (num 1) (name Vbus) (type power_out))
-        (pin (num 2) (name D-) (type BiDi))
-        (pin (num 3) (name D+) (type BiDi))
-        (pin (num 4) (name GND) (type power_in))
-        (pin (num 5) (name Shield_1) (type passive))
-        (pin (num 6) (name Shield_2) (type passive))))
     (libpart (lib custom-i2c) (part 24LC256)
       (aliases
         (alias 24AA256)
@@ -1039,16 +1031,20 @@
         (pin (num 1) (name VI) (type input))
         (pin (num 2) (name GND) (type input))
         (pin (num 3) (name VO) (type power_out))
-        (pin (num 4) (name GND) (type power_in)))))
+        (pin (num 4) (name GND) (type power_in))))
+    (libpart (lib device) (part VR)
+      (description VARISTANCE)
+      (fields
+        (field (name Reference) VR)
+        (field (name Value) VR))
+      (pins
+        (pin (num 1) (name ~) (type passive))
+        (pin (num 2) (name ~) (type passive)))))
   (libraries
     (library (logical device)
       (uri C:\Apps\Engineering\KiCad\kicad\share\library\device.lib))
-    (library (logical conn)
-      (uri C:\Apps\Engineering\KiCad\kicad\share\library\conn.lib))
     (library (logical custom-device)
       (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-device.lib"))
-    (library (logical custom-i2c)
-      (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-i2c.lib"))
     (library (logical custom-opto)
       (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-opto.lib"))
     (library (logical custom-conn)
@@ -1058,7 +1054,11 @@
     (library (logical custom-micro)
       (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-micro.lib"))
     (library (logical custom-regul)
-      (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-regul.lib")))
+      (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-regul.lib"))
+    (library (logical custom-i2c)
+      (uri "E:\\Working Copies\\Engineering\\mls800\\kicad\\library\\custom-i2c.lib"))
+    (library (logical conn)
+      (uri C:\Apps\Engineering\KiCad\kicad\share\library\conn.lib)))
   (nets
     (net (code 1) (name /SCK)
       (node (ref U2) (pin 9))
