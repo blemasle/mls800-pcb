@@ -524,29 +524,6 @@ F 3 "" H 1550 2850 30  0000 C CNN
 	1    1550 2850
 	-1   0    0    1   
 $EndComp
-$Comp
-L CONN_02X03 P5
-U 1 1 5497CC76
-P 1450 4150
-F 0 "P5" H 1450 4350 50  0000 C CNN
-F 1 "CONN_02X03" H 1450 3950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 1450 2950 60  0001 C CNN
-F 3 "" H 1450 2950 60  0000 C CNN
-	1    1450 4150
-	1    0    0    -1  
-$EndComp
-Text HLabel 900  4050 0    60   Input ~ 0
-SDA
-Text HLabel 2050 4050 2    60   Input ~ 0
-VCC
-Text HLabel 2050 4250 2    60   Input ~ 0
-DGND
-Text HLabel 2050 4150 2    60   Input ~ 0
-EDIT_LED
-Text HLabel 900  4250 0    60   Input ~ 0
-IRQ
-Text HLabel 900  4150 0    60   Input ~ 0
-SCL
 Wire Wire Line
 	3650 1000 3450 1000
 Wire Wire Line
@@ -717,33 +694,9 @@ Wire Wire Line
 	6400 5800 6550 5800
 Wire Wire Line
 	1400 2600 1550 2600
-Wire Wire Line
-	1200 4050 900  4050
-Wire Wire Line
-	900  4150 1200 4150
-Wire Wire Line
-	900  4250 1200 4250
-Wire Wire Line
-	2050 4050 1700 4050
-Wire Wire Line
-	1700 4150 2050 4150
-Wire Wire Line
-	1700 4250 2050 4250
-Text Label 1700 4050 0    60   ~ 0
-VCC
-Text Label 1700 4150 0    60   ~ 0
-LED
-Text Label 1700 4250 0    60   ~ 0
-DGND
-Text Label 1200 4050 2    60   ~ 0
-SDA
-Text Label 1200 4150 2    60   ~ 0
-SCl
-Text Label 1200 4250 2    60   ~ 0
-IRQ
 Connection ~ 1050 950 
 Text Label 850  950  0    60   ~ 0
-VCC
+VDD
 Wire Wire Line
 	2500 3250 2500 3550
 Text Label 2500 3550 0    60   ~ 0
@@ -769,7 +722,7 @@ LED
 Wire Wire Line
 	5900 5800 5700 5800
 Text Label 5700 5800 0    60   ~ 0
-VCC
+VDD
 Wire Wire Line
 	7050 5550 7300 5550
 Wire Wire Line
@@ -778,4 +731,40 @@ Text Label 7300 5800 2    60   ~ 0
 DGND
 Text Label 7300 5550 2    60   ~ 0
 DGND
+Text Label 1300 4250 2    60   ~ 0
+IRQ
+Text Label 1300 4150 2    60   ~ 0
+SCl
+Text Label 1300 4050 2    60   ~ 0
+SDA
+Text Label 1300 4550 2    60   ~ 0
+DGND
+Text Label 1300 4450 2    60   ~ 0
+LED
+Text Label 1300 4350 2    60   ~ 0
+VDD
+Wire Wire Line
+	1300 4550 1000 4550
+Wire Wire Line
+	1300 4450 1000 4450
+Wire Wire Line
+	1000 4350 1300 4350
+Wire Wire Line
+	1000 4250 1300 4250
+Wire Wire Line
+	1000 4150 1300 4150
+Wire Wire Line
+	1300 4050 1000 4050
+Text HLabel 1000 4150 0    60   Input ~ 0
+SCL
+Text HLabel 1000 4250 0    60   Input ~ 0
+IRQ
+Text HLabel 1000 4450 0    60   Input ~ 0
+EDIT_LED
+Text HLabel 1000 4550 0    60   Input ~ 0
+DGND
+Text HLabel 1000 4350 0    60   Input ~ 0
+VDD
+Text HLabel 1000 4050 0    60   Input ~ 0
+SDA
 $EndSCHEMATC
