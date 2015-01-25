@@ -1,12 +1,12 @@
 (export (version D)
   (design
-    (source "E:/Working Copies/Engineering/mls800/kicad/mls800.sch")
-    (date "21/01/2015 00:01:35")
+    (source "E:\\Working Copies\\Engineering\\mls800\\kicad\\mls800.sch")
+    (date "26/01/2015 00:41:59")
     (tool "Eeschema (2014-12-01 BZR 5309)-product"))
   (components
     (comp (ref D2)
       (value 1N4001)
-      (footprint Diodes_SMD:Diode-SMB_Handsoldering)
+      (footprint Diodes_SMD:Diode-SMA_Handsoldering)
       (libsource (lib device) (part DIODE))
       (sheetpath (names /) (tstamps /))
       (tstamp 5350587F))
