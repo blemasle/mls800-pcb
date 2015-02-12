@@ -585,7 +585,7 @@ Wire Bus Line
 Wire Wire Line
 	1050 1050 1050 950 
 Wire Wire Line
-	850  950  1550 950 
+	600  950  1550 950 
 Wire Wire Line
 	4450 5300 4150 5300
 Wire Wire Line
@@ -695,7 +695,7 @@ Wire Wire Line
 Wire Wire Line
 	1400 2600 1550 2600
 Connection ~ 1050 950 
-Text Label 850  950  0    60   ~ 0
+Text Label 600  950  0    60   ~ 0
 VDD
 Wire Wire Line
 	2500 3250 2500 3550
@@ -767,4 +767,32 @@ Text HLabel 1000 4350 0    60   Input ~ 0
 VDD
 Text HLabel 1000 4050 0    60   Input ~ 0
 SDA
+$Comp
+L C C13
+U 1 1 54D9EF4F
+P 1050 750
+F 0 "C13" H 1100 850 50  0000 L CNN
+F 1 "0.1uF" H 1100 650 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1088 600 30  0001 C CNN
+F 3 "" H 1050 750 60  0000 C CNN
+	1    1050 750 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	600  550  1050 550 
+Text Label 600  550  0    60   ~ 0
+DGND
+$Comp
+L CAPAPOL C16
+U 1 1 54DC240E
+P 850 750
+F 0 "C16" H 900 850 40  0000 L CNN
+F 1 "100uF" H 900 650 40  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 950 600 30  0001 C CNN
+F 3 "" H 850 750 300 0000 C CNN
+	1    850  750 
+	-1   0    0    1   
+$EndComp
+Connection ~ 850  550 
+Connection ~ 850  950 
 $EndSCHEMATC
