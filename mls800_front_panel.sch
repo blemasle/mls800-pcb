@@ -42,9 +42,9 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 3
-Title ""
-Date ""
-Rev ""
+Title "MLS800 prototype"
+Date "mercredi 18 février 2015"
+Rev "B"
 Comp ""
 Comment1 ""
 Comment2 ""
@@ -438,7 +438,7 @@ NoConn ~ 3450 1500
 NoConn ~ 3450 1600
 NoConn ~ 3450 1700
 Text Notes 8050 5350 0    60   ~ 0
-Si 5GH, pour 5V : \n - Green : Foward Voltage = 2.2V => 2.8V => R = 112R\n - Red : Foward Voltage = 2V => 3V => R = 110R\n\nAu choix Rled = 100R ou 110R suivant le résultat des tests
+If using 5V for 5GH : \n - Green : Foward Voltage = 2.2V => 2.8V => R = 112R\n - Red : Foward Voltage = 2V => 3V => R = 110R\n\nAu choix Rled = 100R ou 110R suivant le résultat des tests
 $Comp
 L SW_TACT_LED SW10
 U 1 1 5473DCF9
