@@ -486,7 +486,7 @@ Entry Wire Line
 Entry Wire Line
 	5800 1800 5900 1900
 Entry Wire Line
-	5800 2000 5900 2100
+	5800 2400 5900 2500
 Entry Wire Line
 	4400 1950 4500 2050
 Entry Wire Line
@@ -504,7 +504,7 @@ Entry Wire Line
 Entry Wire Line
 	4400 2650 4500 2750
 Entry Wire Line
-	4400 2850 4500 2950
+	4400 3250 4500 3350
 $Comp
 L GNDA #PWR046
 U 1 1 54ED04FF
@@ -552,7 +552,9 @@ $EndComp
 Wire Wire Line
 	1100 1550 1000 1550
 Wire Wire Line
-	950  1650 1100 1650
+	950  1650 1000 1650
+Wire Wire Line
+	1000 1650 1100 1650
 Connection ~ 1000 1650
 Wire Wire Line
 	1000 1550 1000 1650
@@ -683,8 +685,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2650 4400 2650
 Wire Wire Line
-	4300 2850 4400 2850
-Wire Wire Line
 	5700 1100 5800 1100
 Wire Wire Line
 	5700 1200 5800 1200
@@ -700,8 +700,6 @@ Wire Wire Line
 	5700 1700 5800 1700
 Wire Wire Line
 	5700 1800 5800 1800
-Wire Wire Line
-	5700 2000 5800 2000
 Wire Wire Line
 	4400 1100 3000 1100
 Wire Wire Line
@@ -723,7 +721,9 @@ Wire Wire Line
 Wire Wire Line
 	6850 1350 6850 600 
 Wire Wire Line
-	6850 600  7300 600 
+	6850 600  6950 600 
+Wire Wire Line
+	6950 600  7300 600 
 Wire Wire Line
 	7050 2100 6850 2100
 Wire Wire Line
@@ -761,7 +761,9 @@ $EndComp
 Wire Wire Line
 	7050 3300 6850 3300
 Wire Wire Line
-	6850 2550 6850 2200
+	6850 2200 6850 2250
+Wire Wire Line
+	6850 2250 6850 2550
 Wire Wire Line
 	6850 2200 6650 2200
 Wire Wire Line
@@ -850,7 +852,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 3400 6850 3400
 Wire Wire Line
-	6850 3400 6850 3750
+	6850 3400 6850 3450
+Wire Wire Line
+	6850 3450 6850 3750
 Wire Wire Line
 	6850 3450 6950 3450
 Wire Wire Line
@@ -893,7 +897,9 @@ Wire Wire Line
 Wire Wire Line
 	6650 4600 6850 4600
 Wire Wire Line
-	6850 4600 6850 4950
+	6850 4600 6850 4650
+Wire Wire Line
+	6850 4650 6850 4950
 Wire Wire Line
 	7300 3600 6650 3600
 Wire Wire Line
@@ -1083,7 +1089,9 @@ Wire Wire Line
 Wire Wire Line
 	9800 2150 9800 1050
 Wire Wire Line
-	9700 1350 9700 1000
+	9700 1000 9700 1050
+Wire Wire Line
+	9700 1050 9700 1350
 Wire Wire Line
 	9800 1050 9700 1050
 Connection ~ 9700 1050
@@ -1092,7 +1100,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 2200 9700 2200
 Wire Wire Line
-	9700 2200 9700 2550
+	9700 2200 9700 2250
+Wire Wire Line
+	9700 2250 9700 2550
 Wire Wire Line
 	10150 2400 9500 2400
 Wire Wire Line
@@ -1137,7 +1147,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 3400 9700 3400
 Wire Wire Line
-	9700 3400 9700 3750
+	9700 3400 9700 3450
+Wire Wire Line
+	9700 3450 9700 3750
 Wire Wire Line
 	9600 4500 9600 4550
 Wire Wire Line
@@ -1152,7 +1164,9 @@ Wire Wire Line
 Wire Wire Line
 	9500 4600 9700 4600
 Wire Wire Line
-	9700 4600 9700 4950
+	9700 4600 9700 4650
+Wire Wire Line
+	9700 4650 9700 4950
 Wire Wire Line
 	9600 5700 9600 5750
 Wire Wire Line
@@ -1303,13 +1317,75 @@ Wire Wire Line
 Wire Wire Line
 	6350 5550 6250 5550
 Wire Bus Line
-	5900 2100 5900 1100
+	5900 1100 5900 1200
+Wire Bus Line
+	5900 1200 5900 1300
+Wire Bus Line
+	5900 1300 5900 1400
+Wire Bus Line
+	5900 1400 5900 1500
+Wire Bus Line
+	5900 1500 5900 1600
+Wire Bus Line
+	5900 1600 5900 1700
+Wire Bus Line
+	5900 1700 5900 1800
+Wire Bus Line
+	5900 1800 5900 1900
+Wire Bus Line
+	5900 1900 5900 2500
 Wire Bus Line
 	5900 1100 6150 1100
 Wire Bus Line
-	6150 1100 6150 5450
+	6150 1100 6150 1450
 Wire Bus Line
-	4500 2950 4500 1950
+	6150 1450 6150 1550
+Wire Bus Line
+	6150 1550 6150 1750
+Wire Bus Line
+	6150 1750 6150 1850
+Wire Bus Line
+	6150 1850 6150 2650
+Wire Bus Line
+	6150 2650 6150 2750
+Wire Bus Line
+	6150 2750 6150 2950
+Wire Bus Line
+	6150 2950 6150 3050
+Wire Bus Line
+	6150 3050 6150 3850
+Wire Bus Line
+	6150 3850 6150 3950
+Wire Bus Line
+	6150 3950 6150 4150
+Wire Bus Line
+	6150 4150 6150 4250
+Wire Bus Line
+	6150 4250 6150 5050
+Wire Bus Line
+	6150 5050 6150 5150
+Wire Bus Line
+	6150 5150 6150 5350
+Wire Bus Line
+	6150 5350 6150 5450
+Wire Bus Line
+	4500 1950 4500 2050
+Wire Bus Line
+	4500 2050 4500 2150
+Wire Bus Line
+	4500 2150 4500 2250
+Wire Bus Line
+	4500 2250 4500 2350
+Wire Bus Line
+	4500 2350 4500 2450
+Wire Bus Line
+	4500 2450 4500 2550
+Wire Bus Line
+	4500 2550 4500 2650
+Wire Bus Line
+	4500 2650 4500 2750
+Wire Bus Line
+	4500 2750 4500 3350
 Wire Bus Line
 	4500 1950 4650 1950
 Wire Bus Line
@@ -1317,8 +1393,38 @@ Wire Bus Line
 Wire Bus Line
 	4650 6000 9000 6000
 Wire Bus Line
-	9000 6000 9000 1450
-Text Label 5700 2000 0    25   ~ 0
+	9000 6000 9000 5450
+Wire Bus Line
+	9000 5450 9000 5350
+Wire Bus Line
+	9000 5350 9000 5150
+Wire Bus Line
+	9000 5150 9000 5050
+Wire Bus Line
+	9000 5050 9000 4250
+Wire Bus Line
+	9000 4250 9000 4150
+Wire Bus Line
+	9000 4150 9000 3950
+Wire Bus Line
+	9000 3950 9000 3850
+Wire Bus Line
+	9000 3850 9000 3050
+Wire Bus Line
+	9000 3050 9000 2950
+Wire Bus Line
+	9000 2950 9000 2750
+Wire Bus Line
+	9000 2750 9000 2650
+Wire Bus Line
+	9000 2650 9000 1850
+Wire Bus Line
+	9000 1850 9000 1750
+Wire Bus Line
+	9000 1750 9000 1550
+Wire Bus Line
+	9000 1550 9000 1450
+Text Label 5700 2400 0    25   ~ 0
 COM1
 Text Label 6250 1650 0    25   ~ 0
 COM1
@@ -1384,7 +1490,7 @@ Text Label 9100 1550 0    25   ~ 0
 LH5
 Text Label 9100 1850 0    25   ~ 0
 LL5
-Text Label 4300 2850 0    25   ~ 0
+Text Label 4300 3250 0    25   ~ 0
 COM2
 Text Label 5700 1100 0    25   ~ 0
 LH1
@@ -1418,4 +1524,30 @@ Text Label 4300 2450 0    25   ~ 0
 LL7
 Text Label 4300 2650 0    25   ~ 0
 LL8
+$Comp
+L DIODE D?
+U 1 1 54EBC78B
+P 4300 3050
+F 0 "D?" H 4300 3150 40  0000 C CNN
+F 1 "DIODE" H 4300 2950 40  0000 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 4300 3050 60  0001 C CNN
+F 3 "" H 4300 3050 60  0000 C CNN
+	1    4300 3050
+	0    -1   -1   0   
+$EndComp
+$Comp
+L DIODE D?
+U 1 1 54EBCC5A
+P 5700 2200
+F 0 "D?" H 5700 2300 40  0000 C CNN
+F 1 "DIODE" H 5700 2100 40  0000 C CNN
+F 2 "SMD_Packages:SMD-1206_Pol" H 5700 2200 60  0001 C CNN
+F 3 "" H 5700 2200 60  0000 C CNN
+	1    5700 2200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 3250 4400 3250
+Wire Wire Line
+	5700 2400 5800 2400
 $EndSCHEMATC
