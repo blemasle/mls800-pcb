@@ -702,8 +702,6 @@ Wire Wire Line
 	2500 3250 2500 3550
 Text Label 2500 3550 0    60   ~ 0
 DGND
-Text Label 1550 3350 0    60   ~ 0
-DGND
 Wire Wire Line
 	1550 2500 1400 2500
 Wire Wire Line
@@ -796,4 +794,6 @@ F 3 "" H 850 750 300 0000 C CNN
 $EndComp
 Connection ~ 850  550 
 Connection ~ 850  950 
+Text Label 1550 3350 0    60   ~ 0
+VDD
 $EndSCHEMATC
