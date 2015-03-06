@@ -60,6 +60,8 @@ F 0 "AFF1" H 5450 2700 60  0000 C CNN
 F 1 "LTC-5723HR" H 5550 1800 60  0000 C CNN
 F 2 "Custom-display:LTC-5723" H 5550 2250 60  0001 C CNN
 F 3 "" H 5550 2250 60  0000 C CNN
+F 4 "Lite-On" H 6050 2250 60  0001 C CNN "Manufacturer"
+F 5 "LTC-5723HR" H 6050 2250 60  0001 C CNN "Manufacturer part number"
 	1    6050 2250
 	1    0    0    -1  
 $EndComp
@@ -71,6 +73,9 @@ F 0 "U5" H 1950 3000 50  0000 C CNN
 F 1 "AS1115" H 2950 800 50  0000 C CNN
 F 2 "Housings_SSOP:SSOP-24_3.9x8.7mm_Pitch0.635mm" H 2000 800 50  0001 C CNN
 F 3 "" H 2500 1850 50  0001 C CNN
+F 4 "ams AG" H 2500 1900 60  0001 C CNN "Manufacturer"
+F 5 "AS1115-BSST" H 2500 1900 60  0001 C CNN "Manufacturer part number"
+F 6 "TQFN-24" H 2500 1900 60  0001 C CNN "Package"
 	1    2500 1900
 	1    0    0    -1  
 $EndComp
