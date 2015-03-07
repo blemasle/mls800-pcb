@@ -71,6 +71,8 @@ F 0 "CON1" H 1000 5750 60  0000 C CNN
 F 1 "BARREL_JACK" H 1000 5300 60  0000 C CNN
 F 2 "Connect:JACK_ALIM" H 1000 5500 60  0001 C CNN
 F 3 "" H 1000 5500 60  0000 C CNN
+F 4 "Switchcraft" H 1000 5500 60  0001 C CNN "Manufacturer"
+F 5 "RAPC722X" H 1000 5500 60  0001 C CNN "Manufacturer part number"
 	1    1000 5500
 	1    0    0    -1  
 $EndComp
@@ -95,6 +97,7 @@ F 0 "R14" V 6180 6700 40  0000 C CNN
 F 1 "22R" V 6107 6701 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 6700 30  0001 C CNN
 F 3 "~" H 6100 6700 30  0000 C CNN
+F 4 "0805" V 6100 6700 60  0001 C CNN "Package"
 	1    6100 6700
 	0    -1   -1   0   
 $EndComp
@@ -106,6 +109,7 @@ F 0 "R13" V 6180 6550 40  0000 C CNN
 F 1 "22R" V 6107 6551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 6550 30  0001 C CNN
 F 3 "~" H 6100 6550 30  0000 C CNN
+F 4 "0805" V 6100 6550 60  0001 C CNN "Package"
 	1    6100 6550
 	0    -1   -1   0   
 $EndComp
@@ -117,6 +121,7 @@ F 0 "X1" H 2750 3600 60  0000 C CNN
 F 1 "16Mhz" H 2750 3300 60  0000 C CNN
 F 2 "Crystals_Oscillators_SMD:Q_49U3HMS" H 2750 3450 60  0001 C CNN
 F 3 "~" H 2750 3450 60  0000 C CNN
+F 4 "HC49/US" H 2750 3450 60  0001 C CNN "Package"
 	1    2750 3450
 	0    -1   -1   0   
 $EndComp
@@ -128,6 +133,7 @@ F 0 "C1" H 2550 3250 40  0000 L CNN
 F 1 "22pF" H 2556 3065 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3000 30  0001 C CNN
 F 3 "~" H 2550 3150 60  0000 C CNN
+F 4 "0805" H 2550 3150 60  0001 C CNN "Package"
 	1    2550 3150
 	0    -1   -1   0   
 $EndComp
@@ -139,6 +145,7 @@ F 0 "C2" H 2550 3850 40  0000 L CNN
 F 1 "22pF" H 2556 3665 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3600 30  0001 C CNN
 F 3 "~" H 2550 3750 60  0000 C CNN
+F 4 "0805" H 2550 3750 60  0001 C CNN "Package"
 	1    2550 3750
 	0    -1   -1   0   
 $EndComp
@@ -150,6 +157,7 @@ F 0 "C6" H 2950 2500 40  0000 L CNN
 F 1 "1uF" H 2956 2315 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2988 2250 30  0001 C CNN
 F 3 "~" H 2950 2400 60  0000 C CNN
+F 4 "0805" H 2950 2400 60  0001 C CNN "Package"
 	1    2950 2400
 	0    -1   -1   0   
 $EndComp
@@ -164,9 +172,12 @@ L FUSE F1
 U 1 1 53506308
 P 4350 5900
 F 0 "F1" H 4450 5950 40  0000 C CNN
-F 1 "MS-MSMF050-2" H 4250 5800 40  0000 C CNN
+F 1 "MF-MSMF050-2" H 4250 5800 40  0000 C CNN
 F 2 "SMD_Packages:SMD-1812" H 4350 5900 60  0001 C CNN
 F 3 "~" H 4350 5900 60  0000 C CNN
+F 4 "Bourns" H 4350 5900 60  0001 C CNN "Manufacturer"
+F 5 "MF-MSMF050-2" H 4350 5900 60  0001 C CNN "Manufacturer part number"
+F 6 "1812" H 4350 5900 60  0001 C CNN "Package"
 	1    4350 5900
 	1    0    0    -1  
 $EndComp
@@ -182,13 +193,14 @@ F 3 "" H 4100 5900 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L CAPAPOL C8
+L C C8
 U 1 1 53506359
 P 4600 5600
 F 0 "C8" H 4650 5700 40  0000 L CNN
 F 1 "22uF" H 4650 5500 40  0000 L CNN
 F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 4700 5450 30  0001 C CNN
 F 3 "~" H 4600 5600 300 0000 C CNN
+F 4 "0805" H 4600 5600 60  0001 C CNN "Package"
 	1    4600 5600
 	-1   0    0    1   
 $EndComp
@@ -200,6 +212,7 @@ F 0 "R4" V 4980 5650 40  0000 C CNN
 F 1 "10k" V 4907 5651 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4830 5650 30  0001 C CNN
 F 3 "~" H 4900 5650 30  0000 C CNN
+F 4 "0805" V 4900 5650 60  0001 C CNN "Package"
 	1    4900 5650
 	-1   0    0    1   
 $EndComp
@@ -211,6 +224,7 @@ F 0 "C9" H 5200 5700 40  0000 L CNN
 F 1 "100nF" H 5206 5515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5238 5450 30  0001 C CNN
 F 3 "~" H 5200 5600 60  0000 C CNN
+F 4 "0805" H 5200 5600 60  0001 C CNN "Package"
 	1    5200 5600
 	-1   0    0    1   
 $EndComp
@@ -237,6 +251,7 @@ F 0 "R1" V 1980 2400 40  0000 C CNN
 F 1 "10k" V 1907 2401 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1830 2400 30  0001 C CNN
 F 3 "~" H 1900 2400 30  0000 C CNN
+F 4 "0805" V 1900 2400 60  0001 C CNN "Package"
 	1    1900 2400
 	-1   0    0    1   
 $EndComp
@@ -248,6 +263,7 @@ F 0 "C5" H 2450 2450 40  0000 L CNN
 F 1 "100nF" H 2456 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2488 2200 30  0001 C CNN
 F 3 "~" H 2450 2350 60  0000 C CNN
+F 4 "0805" H 2450 2350 60  0001 C CNN "Package"
 	1    2450 2350
 	-1   0    0    1   
 $EndComp
@@ -259,6 +275,7 @@ F 0 "C4" H 2150 2450 40  0000 L CNN
 F 1 "100nF" H 2156 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 2200 30  0001 C CNN
 F 3 "~" H 2150 2350 60  0000 C CNN
+F 4 "0805" H 2150 2350 60  0001 C CNN "Package"
 	1    2150 2350
 	-1   0    0    1   
 $EndComp
@@ -281,6 +298,9 @@ F 0 "D1" H 1600 2550 40  0000 C CNN
 F 1 "CD1206-S01575" H 1600 2350 40  0000 C CNN
 F 2 "SMD_Packages:SMD-1206_Pol" H 1600 2450 60  0001 C CNN
 F 3 "~" H 1600 2450 60  0000 C CNN
+F 4 "Bourns" H 1600 2450 60  0001 C CNN "Manufacturer"
+F 5 "CD1206-S01575" H 1600 2450 60  0001 C CNN "Manufacturer part number"
+F 6 "1206" H 1600 2450 60  0001 C CNN "Package"
 	1    1600 2450
 	0    -1   -1   0   
 $EndComp
@@ -292,6 +312,7 @@ F 0 "R6" V 6150 3500 40  0000 C CNN
 F 1 "10k" V 6257 3501 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3500 30  0001 C CNN
 F 3 "~" H 6250 3500 30  0000 C CNN
+F 4 "0805" V 6250 3500 60  0001 C CNN "Package"
 	1    6250 3500
 	0    1    1    0   
 $EndComp
@@ -303,6 +324,7 @@ F 0 "D3" H 6900 1500 24  0000 C CNN
 F 1 "Yellow" H 6900 1300 24  0000 C CNN
 F 2 "LEDs:LED-0805" H 6900 1400 60  0001 C CNN
 F 3 "~" H 6900 1400 60  0000 C CNN
+F 4 "0805" H 6900 1400 60  0001 C CNN "Package"
 	1    6900 1400
 	1    0    0    -1  
 $EndComp
@@ -314,6 +336,7 @@ F 0 "R9" V 6380 1400 40  0000 C CNN
 F 1 "1k" V 6307 1401 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 1400 30  0001 C CNN
 F 3 "~" H 6300 1400 30  0000 C CNN
+F 4 "0805" V 6300 1400 60  0001 C CNN "Package"
 	1    6300 1400
 	0    1    1    0   
 $EndComp
@@ -325,6 +348,7 @@ F 0 "D4" H 6900 3200 24  0000 C CNN
 F 1 "Red" H 6900 3000 24  0000 C CNN
 F 2 "LEDs:LED-0805" H 6900 3100 60  0001 C CNN
 F 3 "~" H 6900 3100 60  0000 C CNN
+F 4 "0805" H 6900 3100 60  0001 C CNN "Package"
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
@@ -336,6 +360,7 @@ F 0 "R10" V 6380 3100 40  0000 C CNN
 F 1 "1k" V 6307 3101 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 3100 30  0001 C CNN
 F 3 "~" H 6300 3100 30  0000 C CNN
+F 4 "0805" V 6300 3100 60  0001 C CNN "Package"
 	1    6300 3100
 	0    1    1    0   
 $EndComp
@@ -409,6 +434,7 @@ F 0 "R15" V 9180 1850 40  0000 C CNN
 F 1 "220R" V 9107 1851 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 1850 30  0001 C CNN
 F 3 "~" H 9100 1850 30  0000 C CNN
+F 4 "0805" V 9100 1850 60  0001 C CNN "Package"
 	1    9100 1850
 	0    -1   -1   0   
 $EndComp
@@ -445,6 +471,7 @@ F 0 "R17" V 10830 1950 40  0000 C CNN
 F 1 "220R" V 10757 1951 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10680 1950 30  0001 C CNN
 F 3 "~" H 10750 1950 30  0000 C CNN
+F 4 "0805" V 10750 1950 60  0001 C CNN "Package"
 	1    10750 1950
 	1    0    0    -1  
 $EndComp
@@ -456,6 +483,9 @@ F 0 "D5" H 9350 2150 40  0000 C CNN
 F 1 "CD1206-S01575" H 9350 1950 40  0000 C CNN
 F 2 "SMD_Packages:SMD-1206_Pol" H 9350 2050 60  0001 C CNN
 F 3 "~" H 9350 2050 60  0000 C CNN
+F 4 "Bourns" H 9350 2050 60  0001 C CNN "Manufacturer"
+F 5 "CD1206-S01575" H 9350 2050 60  0001 C CNN "Manufacturer part number"
+F 6 "1206" H 9350 2050 60  0001 C CNN "Package"
 	1    9350 2050
 	0    -1   -1   0   
 $EndComp
@@ -469,6 +499,8 @@ F 2 "Custom-conn:DIN_5" H 8250 2050 60  0001 C CNN
 F 3 "" H 8250 2050 60  0000 C CNN
 F 4 "CUI Inc" H 8250 2050 60  0001 C CNN "Manufacturer"
 F 5 "SDS-50J" H 8250 2050 60  0001 C CNN "Manufacturer part number"
+F 6 "Switchcraft" H 8250 2050 60  0001 C CNN "Manufacturer#1"
+F 7 "57PC5F" H 8250 2050 60  0001 C CNN "Manufacturer part number#1"
 	1    8250 2050
 	1    0    0    -1  
 $EndComp
@@ -484,6 +516,8 @@ F 2 "Custom-conn:DIN_5" H 9700 1300 60  0001 C CNN
 F 3 "" H 9700 1300 60  0000 C CNN
 F 4 "CUI Inc" H 9700 1300 60  0001 C CNN "Manufacturer"
 F 5 "SDS-50J" H 9700 1300 60  0001 C CNN "Manufacturer part number"
+F 6 "Switchcraft" H 9700 1300 60  0001 C CNN "Manufacturer#1"
+F 7 "57PC5F" H 9700 1300 60  0001 C CNN "Manufacturer part number#1"
 	1    9700 1300
 	1    0    0    -1  
 $EndComp
@@ -506,6 +540,7 @@ F 0 "R16" V 10630 1100 40  0000 C CNN
 F 1 "220R" V 10557 1101 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 1100 30  0001 C CNN
 F 3 "~" H 10550 1100 30  0000 C CNN
+F 4 "0805" V 10550 1100 60  0001 C CNN "Package"
 	1    10550 1100
 	0    -1   -1   0   
 $EndComp
@@ -550,6 +585,7 @@ F 0 "C3" H 1850 6100 40  0000 L CNN
 F 1 "0.22uF" H 1700 6300 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 6050 30  0001 C CNN
 F 3 "~" H 1950 6200 60  0000 C CNN
+F 4 "0805" H 1950 6200 60  0001 C CNN "Package"
 	1    1950 6200
 	-1   0    0    1   
 $EndComp
@@ -561,6 +597,7 @@ F 0 "C7" H 2750 6300 40  0000 L CNN
 F 1 "0.1uF" H 2756 6115 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 6050 30  0001 C CNN
 F 3 "~" H 2750 6200 60  0000 C CNN
+F 4 "0805" H 2750 6200 60  0001 C CNN "Package"
 	1    2750 6200
 	-1   0    0    1   
 $EndComp
@@ -611,6 +648,9 @@ F 0 "VR2" V 5810 6954 40  0000 C TNN
 F 1 "CG0603MLC-05E" V 5650 7000 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5750 7000 60  0001 C CNN
 F 3 "" H 5750 7000 60  0000 C CNN
+F 4 "Bourns" V 5750 7000 60  0001 C CNN "Manufacturer"
+F 5 "CG0603MLC-05E" V 5750 7000 60  0001 C CNN "Manufacturer part number"
+F 6 "0603" V 5750 7000 60  0001 C CNN "Package"
 	1    5750 7000
 	-1   0    0    1   
 $EndComp
@@ -622,6 +662,9 @@ F 0 "VR1" V 5560 6954 40  0000 C TNN
 F 1 "CG0603MLC-05E" V 5400 7000 40  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" H 5500 7000 60  0001 C CNN
 F 3 "" H 5500 7000 60  0000 C CNN
+F 4 "Bourns" V 5500 7000 60  0001 C CNN "Manufacturer"
+F 5 "CG0603MLC-05E" V 5500 7000 60  0001 C CNN "Manufacturer part number"
+F 6 "0603" V 5500 7000 60  0001 C CNN "Package"
 	1    5500 7000
 	-1   0    0    1   
 $EndComp
@@ -633,6 +676,10 @@ F 0 "J1" H 4950 6750 60  0000 C CNN
 F 1 "USB" V 4750 6500 60  0000 C CNN
 F 2 "Connect:USB_B" H 5000 6350 60  0001 C CNN
 F 3 "" H 5000 6350 60  0000 C CNN
+F 4 "Molex Inc" H 5000 6350 60  0001 C CNN "Manufacturer"
+F 5 "67068-8000" H 5000 6350 60  0001 C CNN "Manufacturer part number"
+F 6 "Molex Inc" H 5000 6350 60  0001 C CNN "Manufacturer#1"
+F 7 "67068-9000" H 5000 6350 60  0001 C CNN "Manufacturer part number#1"
 	1    5000 6350
 	1    0    0    -1  
 $EndComp
@@ -644,6 +691,7 @@ F 0 "C10" H 10550 2000 40  0000 L CNN
 F 1 "0.1uF" H 10556 1815 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 1750 30  0001 C CNN
 F 3 "~" H 10550 1900 60  0000 C CNN
+F 4 "0805" H 10550 1900 60  0001 C CNN "Package"
 	1    10550 1900
 	-1   0    0    1   
 $EndComp
@@ -655,6 +703,7 @@ F 0 "R11" V 6000 2700 40  0000 C CNN
 F 1 "1k" V 6207 2701 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6130 2700 30  0001 C CNN
 F 3 "" H 6200 2700 30  0000 C CNN
+F 4 "0805" V 6200 2700 60  0001 C CNN "Package"
 	1    6200 2700
 	0    1    1    0   
 $EndComp
@@ -666,6 +715,7 @@ F 0 "R12" V 6400 2600 40  0000 C CNN
 F 1 "1k" V 6207 2601 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6130 2600 30  0001 C CNN
 F 3 "" H 6200 2600 30  0000 C CNN
+F 4 "0805" V 6200 2600 60  0001 C CNN "Package"
 	1    6200 2600
 	0    1    1    0   
 $EndComp
@@ -1307,6 +1357,8 @@ F 0 "SW12" H 1250 2760 50  0000 C CNN
 F 1 "SW_PUSH" H 1100 2570 50  0000 C CNN
 F 2 "Custom-device:SW_PUSH_SMALL" H 1100 2650 60  0001 C CNN
 F 3 "" H 1100 2650 60  0000 C CNN
+F 4 "TE Connectivity" H 1100 2650 60  0001 C CNN "Manufacturer"
+F 5 "FSM4JSMA" H 1100 2650 60  0001 C CNN "Manufacturer part number"
 	1    1100 2650
 	1    0    0    -1  
 $EndComp
@@ -1318,6 +1370,7 @@ F 0 "C11" H 7700 5350 50  0000 L CNN
 F 1 "0.1uF" H 7700 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7688 5100 30  0001 C CNN
 F 3 "" H 7650 5250 60  0000 C CNN
+F 4 "0805" H 7650 5250 60  0001 C CNN "Package"
 	1    7650 5250
 	0    1    1    0   
 $EndComp
@@ -1342,6 +1395,7 @@ F 0 "C14" H 2900 1700 50  0000 L CNN
 F 1 "0.1uF" H 2900 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 1450 30  0001 C CNN
 F 3 "" H 2850 1600 60  0000 C CNN
+F 4 "0805" H 2850 1600 60  0001 C CNN "Package"
 	1    2850 1600
 	1    0    0    -1  
 $EndComp
@@ -1381,13 +1435,14 @@ F 3 "" H 2950 6650 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L CAPAPOL C15
+L C C15
 U 1 1 54DBFBD8
 P 2650 1600
 F 0 "C15" H 2700 1700 40  0000 L CNN
 F 1 "100uF" H 2450 1500 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2750 1450 30  0001 C CNN
 F 3 "~" H 2650 1600 300 0000 C CNN
+F 4 "0805" H 2650 1600 60  0001 C CNN "Package"
 	1    2650 1600
 	1    0    0    -1  
 $EndComp
@@ -1470,6 +1525,7 @@ F 0 "C17" H 1850 4950 40  0000 L CNN
 F 1 "0.22uF" H 1700 5150 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 4900 30  0001 C CNN
 F 3 "~" H 1950 5050 60  0000 C CNN
+F 4 "0805" H 1950 5050 60  0001 C CNN "Package"
 	1    1950 5050
 	-1   0    0    1   
 $EndComp
@@ -1481,6 +1537,7 @@ F 0 "C18" H 2750 5150 40  0000 L CNN
 F 1 "0.1uF" H 2756 4965 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 4900 30  0001 C CNN
 F 3 "~" H 2750 5050 60  0000 C CNN
+F 4 "0805" H 2750 5050 60  0001 C CNN "Package"
 	1    2750 5050
 	-1   0    0    1   
 $EndComp

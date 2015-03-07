@@ -74,6 +74,7 @@ F 0 "R18" V 930 1150 40  0000 C CNN
 F 1 "1k" V 857 1151 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 780 1150 30  0001 C CNN
 F 3 "~" H 850 1150 30  0000 C CNN
+F 4 "0805" V 850 1150 60  0001 C CNN "Package"
 	1    850  1150
 	0    -1   -1   0   
 $EndComp
@@ -115,6 +116,8 @@ F 0 "RE1" H 6470 2090 60  0000 C CNN
 F 1 "LATCH_DPDT" H 6300 1410 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 6930 1750 60  0001 C CNN
 F 3 "~" H 6930 1750 60  0000 C CNN
+F 4 "TE Connectivity" H 6700 1750 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 6700 1750 60  0001 C CNN "Manufacturer part number"
 	1    6700 1750
 	1    0    0    -1  
 $EndComp
@@ -165,6 +168,8 @@ F 0 "RE2" H 6470 3290 60  0000 C CNN
 F 1 "LATCH_DPDT" H 6300 2610 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 6930 2950 60  0001 C CNN
 F 3 "~" H 6930 2950 60  0000 C CNN
+F 4 "TE Connectivity" H 6700 2950 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 6700 2950 60  0001 C CNN "Manufacturer part number"
 	1    6700 2950
 	1    0    0    -1  
 $EndComp
@@ -202,6 +207,8 @@ F 0 "RE3" H 6470 4490 60  0000 C CNN
 F 1 "LATCH_DPDT" H 6300 3810 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 6930 4150 60  0001 C CNN
 F 3 "~" H 6930 4150 60  0000 C CNN
+F 4 "TE Connectivity" H 6700 4150 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 6700 4150 60  0001 C CNN "Manufacturer part number"
 	1    6700 4150
 	1    0    0    -1  
 $EndComp
@@ -239,6 +246,8 @@ F 0 "RE4" H 6470 5690 60  0000 C CNN
 F 1 "LATCH_DPDT" H 6300 5010 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 6930 5350 60  0001 C CNN
 F 3 "~" H 6930 5350 60  0000 C CNN
+F 4 "TE Connectivity" H 6700 5350 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 6700 5350 60  0001 C CNN "Manufacturer part number"
 	1    6700 5350
 	1    0    0    -1  
 $EndComp
@@ -276,6 +285,8 @@ F 0 "RE5" H 9320 2090 60  0000 C CNN
 F 1 "LATCH_DPDT" H 9150 1410 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 9780 1750 60  0001 C CNN
 F 3 "~" H 9780 1750 60  0000 C CNN
+F 4 "TE Connectivity" H 9550 1750 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 9550 1750 60  0001 C CNN "Manufacturer part number"
 	1    9550 1750
 	1    0    0    -1  
 $EndComp
@@ -313,6 +324,8 @@ F 0 "RE6" H 9320 3290 60  0000 C CNN
 F 1 "LATCH_DPDT" H 9150 2610 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 9780 2950 60  0001 C CNN
 F 3 "~" H 9780 2950 60  0000 C CNN
+F 4 "TE Connectivity" H 9550 2950 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 9550 2950 60  0001 C CNN "Manufacturer part number"
 	1    9550 2950
 	1    0    0    -1  
 $EndComp
@@ -350,6 +363,8 @@ F 0 "RE7" H 9320 4490 60  0000 C CNN
 F 1 "LATCH_DPDT" H 9150 3810 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 9780 4150 60  0001 C CNN
 F 3 "~" H 9780 4150 60  0000 C CNN
+F 4 "TE Connectivity" H 9550 4150 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 9550 4150 60  0001 C CNN "Manufacturer part number"
 	1    9550 4150
 	1    0    0    -1  
 $EndComp
@@ -387,6 +402,8 @@ F 0 "RE8" H 9320 5690 60  0000 C CNN
 F 1 "LATCH_DPDT" H 9150 5010 60  0000 C CNN
 F 2 "Custom-device:Relay_SMD_DPDT-RT2_bistabil" H 9780 5350 60  0001 C CNN
 F 3 "~" H 9780 5350 60  0000 C CNN
+F 4 "TE Connectivity" H 9550 5350 60  0001 C CNN "Manufacturer"
+F 5 "V23079E1201B301" H 9550 5350 60  0001 C CNN "Manufacturer part number"
 	1    9550 5350
 	1    0    0    -1  
 $EndComp
@@ -472,6 +489,7 @@ F 0 "C12" H 1150 950 50  0000 L CNN
 F 1 "0.1uF" V 950 750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 700 30  0001 C CNN
 F 3 "" H 1100 850 60  0000 C CNN
+F 4 "0805" H 1100 850 60  0001 C CNN "Package"
 	1    1100 850 
 	1    0    0    -1  
 $EndComp
@@ -797,101 +815,101 @@ Entry Wire Line
 Text Label 5700 2000 0    25   ~ 0
 COM2
 Text Label 6250 1650 0    25   ~ 0
-LH1
-Text Label 6250 1950 0    25   ~ 0
-LL1
-Text Label 6250 2850 0    25   ~ 0
-LH2
-Text Label 6250 3150 0    25   ~ 0
-LL2
-Text Label 6250 4050 0    25   ~ 0
-LH3
-Text Label 6250 4350 0    25   ~ 0
-LL3
-Text Label 6250 5250 0    25   ~ 0
-LH4
-Text Label 6250 5550 0    25   ~ 0
-LL4
-Text Label 9100 5550 0    25   ~ 0
-LL8
-Text Label 9100 5250 0    25   ~ 0
-LH8
-Text Label 9100 4350 0    25   ~ 0
-LL7
-Text Label 9100 4050 0    25   ~ 0
-LH7
-Text Label 9100 3150 0    25   ~ 0
-LL6
-Text Label 9100 2850 0    25   ~ 0
-LH6
-Text Label 9100 1950 0    25   ~ 0
-LL5
-Text Label 9100 1650 0    25   ~ 0
-LH5
-Text Label 6250 1550 0    25   ~ 0
 COM
+Text Label 6250 1950 0    25   ~ 0
+LH1
+Text Label 6250 2850 0    25   ~ 0
+COM
+Text Label 6250 3150 0    25   ~ 0
+LH2
+Text Label 6250 4050 0    25   ~ 0
+COM
+Text Label 6250 4350 0    25   ~ 0
+LH3
+Text Label 6250 5250 0    25   ~ 0
+COM
+Text Label 6250 5550 0    25   ~ 0
+LH4
+Text Label 9100 5550 0    25   ~ 0
+LH8
+Text Label 9100 5250 0    25   ~ 0
+COM2
+Text Label 9100 4350 0    25   ~ 0
+LH7
+Text Label 9100 4050 0    25   ~ 0
+COM2
+Text Label 9100 3150 0    25   ~ 0
+LH6
+Text Label 9100 2850 0    25   ~ 0
+COM2
+Text Label 9100 1950 0    25   ~ 0
+LH5
+Text Label 9100 1650 0    25   ~ 0
+COM2
+Text Label 6250 1550 0    25   ~ 0
+LL1
 Text Label 6250 1850 0    25   ~ 0
 COM
 Text Label 6250 2750 0    25   ~ 0
-COM
+LL2
 Text Label 6250 3050 0    25   ~ 0
 COM
 Text Label 6250 3950 0    25   ~ 0
-COM
+LL3
 Text Label 6250 4250 0    25   ~ 0
 COM
 Text Label 6250 5150 0    25   ~ 0
-COM
+LL4
 Text Label 6250 5450 0    25   ~ 0
 COM
 Text Label 9100 5150 0    25   ~ 0
-COM2
+LL8
 Text Label 9100 5450 0    25   ~ 0
 COM2
 Text Label 9100 3950 0    25   ~ 0
-COM2
+LL7
 Text Label 9100 4250 0    25   ~ 0
 COM2
 Text Label 9100 2750 0    25   ~ 0
-COM2
+LL6
 Text Label 9100 3050 0    25   ~ 0
 COM2
 Text Label 9100 1550 0    25   ~ 0
-COM2
+LL5
 Text Label 9100 1850 0    25   ~ 0
 COM2
 Text Label 5700 1100 0    25   ~ 0
-LL5
-Text Label 5700 1200 0    25   ~ 0
 LH5
+Text Label 5700 1200 0    25   ~ 0
+LL5
 Text Label 5700 1300 0    25   ~ 0
-LL6
-Text Label 5700 1400 0    25   ~ 0
 LH6
+Text Label 5700 1400 0    25   ~ 0
+LL6
 Text Label 5700 1500 0    25   ~ 0
-LL7
-Text Label 5700 1600 0    25   ~ 0
 LH7
+Text Label 5700 1600 0    25   ~ 0
+LL7
 Text Label 5700 1700 0    25   ~ 0
-LL8
-Text Label 5700 1800 0    25   ~ 0
 LH8
+Text Label 5700 1800 0    25   ~ 0
+LL8
 Text Label 3300 4150 3    25   ~ 0
-LH1
-Text Label 3200 4150 3    25   ~ 0
 LL1
+Text Label 3200 4150 3    25   ~ 0
+LH1
 Text Label 3400 4150 3    25   ~ 0
-LL2
-Text Label 3600 4150 3    25   ~ 0
-LL3
-Text Label 3800 4150 3    25   ~ 0
-LL4
-Text Label 3500 4150 3    25   ~ 0
 LH2
-Text Label 3700 4150 3    25   ~ 0
+Text Label 3600 4150 3    25   ~ 0
 LH3
-Text Label 3900 4150 3    25   ~ 0
+Text Label 3800 4150 3    25   ~ 0
 LH4
+Text Label 3500 4150 3    25   ~ 0
+LL2
+Text Label 3700 4150 3    25   ~ 0
+LL3
+Text Label 3900 4150 3    25   ~ 0
+LL4
 Entry Wire Line
 	3200 4250 3300 4350
 Entry Wire Line
@@ -1469,17 +1487,19 @@ F 0 "C20" H 5550 2550 50  0000 L CNN
 F 1 "0.1uF" V 5550 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 2250 30  0001 C CNN
 F 3 "" H 5700 2400 60  0000 C CNN
+F 4 "0805" H 5700 2400 60  0001 C CNN "Package"
 	1    5700 2400
 	-1   0    0    1   
 $EndComp
 $Comp
-L CAPAPOL C19
+L C C19
 U 1 1 54F3652F
 P 5400 2400
 F 0 "C19" H 5400 2250 40  0000 L CNN
 F 1 "100uF" H 5200 2500 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5500 2250 30  0001 C CNN
 F 3 "" H 5400 2400 300 0000 C CNN
+F 4 "0805" H 5400 2400 60  0001 C CNN "Package"
 	1    5400 2400
 	1    0    0    -1  
 $EndComp
