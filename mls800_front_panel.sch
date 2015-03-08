@@ -180,7 +180,7 @@ L R R19
 U 1 1 543F1E5E
 P 1300 1050
 F 0 "R19" V 1380 1050 40  0000 C CNN
-F 1 "R" V 1307 1051 40  0000 C CNN
+F 1 "23.6k" V 1307 1051 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 1050 30  0001 C CNN
 F 3 "" H 1300 1050 30  0000 C CNN
 F 4 "0805" V 1300 1050 60  0001 C CNN "Package"
@@ -188,9 +188,7 @@ F 4 "0805" V 1300 1050 60  0001 C CNN "Package"
 	0    1    1    0   
 $EndComp
 Text Notes 850  1550 0    60   ~ 0
-Rset : \n - 20 mA : 22.6k\n - 30 mA : 14.7k\n - 40 mA : 10.84k
-Text Notes 8050 4600 0    60   ~ 0
-Bi color leds : which button cap to get ?\n - Can't take the transparent red one or green led could be "ugly"\n - Transparent white could be ugly on its own...
+Rset : \n - 20 mA : 23.6k\n - 30 mA : 15.4k\n - 40 mA : 11.35k
 Text Notes 5650 6450 0    60   ~ 0
 With single color leds, AS1115 can drive the loops state leds. This eliminate the needs of an additionnal MCP23017.\nThe button led resistances needs to be adjusted though (an additionnal resistance for each led ?)
 $Comp
@@ -516,7 +514,7 @@ L R R8
 U 1 1 54972E4B
 P 6150 5550
 F 0 "R8" V 6230 5550 40  0000 C CNN
-F 1 "10K" V 6157 5551 40  0000 C CNN
+F 1 "250R" V 6157 5551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6080 5550 30  0001 C CNN
 F 3 "" H 6150 5550 30  0000 C CNN
 F 4 "0805" V 6150 5550 60  0001 C CNN "Package"
@@ -541,7 +539,7 @@ L R R5
 U 1 1 54972FD3
 P 6150 5800
 F 0 "R5" V 6230 5800 40  0000 C CNN
-F 1 "10K" V 6157 5801 40  0000 C CNN
+F 1 "250R" V 6157 5801 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6080 5800 30  0001 C CNN
 F 3 "" H 6150 5800 30  0000 C CNN
 F 4 "0805" V 6150 5800 60  0001 C CNN "Package"

@@ -60,6 +60,9 @@ F 0 "D2" H 1750 6100 40  0000 C CNN
 F 1 "1N4001" H 1750 5900 40  0000 C CNN
 F 2 "Diodes_SMD:Diode-SMA_Handsoldering" H 1750 6000 60  0001 C CNN
 F 3 "~" H 1750 6000 60  0000 C CNN
+F 4 "Diodes Incorporated" H 1750 6000 60  0001 C CNN "Manufacturer"
+F 5 "S1A-13-F" H 1750 6000 60  0001 C CNN "Manufacturer part number"
+F 6 "SMA" H 1750 6000 60  0001 C CNN "Package"
 	1    1750 6000
 	1    0    0    -1  
 $EndComp
@@ -1565,6 +1568,9 @@ F 0 "D6" H 1750 4950 40  0000 C CNN
 F 1 "1N4001" H 1750 4750 40  0000 C CNN
 F 2 "Diodes_SMD:Diode-SMA_Handsoldering" H 1750 4850 60  0001 C CNN
 F 3 "~" H 1750 4850 60  0000 C CNN
+F 4 "Diodes Incorporated" H 1750 4850 60  0001 C CNN "Manufacturer"
+F 5 "S1A-13-F" H 1750 4850 60  0001 C CNN "Manufacturer part number"
+F 6 "SMA" H 1750 4850 60  0001 C CNN "Package"
 	1    1750 4850
 	1    0    0    -1  
 $EndComp
