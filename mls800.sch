@@ -100,7 +100,9 @@ F 0 "R14" V 6180 6700 40  0000 C CNN
 F 1 "22R" V 6107 6701 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 6700 30  0001 C CNN
 F 3 "~" H 6100 6700 30  0000 C CNN
-F 4 "0805" V 6100 6700 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6100 6700 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-P06J220V" V 6100 6700 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6100 6700 60  0001 C CNN "Package"
 	1    6100 6700
 	0    -1   -1   0   
 $EndComp
@@ -112,7 +114,9 @@ F 0 "R13" V 6180 6550 40  0000 C CNN
 F 1 "22R" V 6107 6551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6030 6550 30  0001 C CNN
 F 3 "~" H 6100 6550 30  0000 C CNN
-F 4 "0805" V 6100 6550 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6100 6550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-P06J220V" V 6100 6550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6100 6550 60  0001 C CNN "Package"
 	1    6100 6550
 	0    -1   -1   0   
 $EndComp
@@ -136,7 +140,9 @@ F 0 "C1" H 2550 3250 40  0000 L CNN
 F 1 "22pF" H 2556 3065 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3000 30  0001 C CNN
 F 3 "~" H 2550 3150 60  0000 C CNN
-F 4 "0805" H 2550 3150 60  0001 C CNN "Package"
+F 4 "Samsung" H 2550 3150 60  0001 C CNN "Manufacturer"
+F 5 "CL21C220GBANNNC" H 2550 3150 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2550 3150 60  0001 C CNN "Package"
 	1    2550 3150
 	0    -1   -1   0   
 $EndComp
@@ -148,7 +154,9 @@ F 0 "C2" H 2550 3850 40  0000 L CNN
 F 1 "22pF" H 2556 3665 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3600 30  0001 C CNN
 F 3 "~" H 2550 3750 60  0000 C CNN
-F 4 "0805" H 2550 3750 60  0001 C CNN "Package"
+F 4 "Samsung" H 2550 3750 60  0001 C CNN "Manufacturer"
+F 5 "CL21C220GBANNNC" H 2550 3750 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2550 3750 60  0001 C CNN "Package"
 	1    2550 3750
 	0    -1   -1   0   
 $EndComp
@@ -160,7 +168,9 @@ F 0 "C6" H 2950 2500 40  0000 L CNN
 F 1 "1uF" H 2956 2315 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2988 2250 30  0001 C CNN
 F 3 "~" H 2950 2400 60  0000 C CNN
-F 4 "0805" H 2950 2400 60  0001 C CNN "Package"
+F 4 "Samsung" H 2950 2400 60  0001 C CNN "Manufacturer"
+F 5 "CL21B105KOFNFNE" H 2950 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2950 2400 60  0001 C CNN "Package"
 	1    2950 2400
 	0    -1   -1   0   
 $EndComp
@@ -201,9 +211,11 @@ U 1 1 53506359
 P 4600 5600
 F 0 "C8" H 4650 5700 40  0000 L CNN
 F 1 "22uF" H 4650 5500 40  0000 L CNN
-F 2 "Capacitors_Tantalum_SMD:TantalC_SizeA_EIA-3216_HandSoldering" H 4700 5450 30  0001 C CNN
+F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4700 5450 30  0001 C CNN
 F 3 "~" H 4600 5600 300 0000 C CNN
-F 4 "0805" H 4600 5600 60  0001 C CNN "Package"
+F 4 "Samsung" H 4600 5600 60  0001 C CNN "Manufacturer"
+F 5 "CL32B226KAJNFNE" H 4600 5600 60  0001 C CNN "Manufacturer part number"
+F 6 "1210" H 4600 5600 60  0001 C CNN "Package"
 	1    4600 5600
 	-1   0    0    1   
 $EndComp
@@ -215,7 +227,9 @@ F 0 "R4" V 4980 5650 40  0000 C CNN
 F 1 "10k" V 4907 5651 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 4830 5650 30  0001 C CNN
 F 3 "~" H 4900 5650 30  0000 C CNN
-F 4 "0805" V 4900 5650 60  0001 C CNN "Package"
+F 4 "Panasonic" V 4900 5650 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 4900 5650 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 4900 5650 60  0001 C CNN "Package"
 	1    4900 5650
 	-1   0    0    1   
 $EndComp
@@ -224,10 +238,12 @@ L C C9
 U 1 1 5350641D
 P 5200 5600
 F 0 "C9" H 5200 5700 40  0000 L CNN
-F 1 "100nF" H 5206 5515 40  0000 L CNN
+F 1 "0.1uF" H 5206 5515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5238 5450 30  0001 C CNN
 F 3 "~" H 5200 5600 60  0000 C CNN
-F 4 "0805" H 5200 5600 60  0001 C CNN "Package"
+F 4 "Samsung" H 5200 5600 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 5200 5600 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 5200 5600 60  0001 C CNN "Package"
 	1    5200 5600
 	-1   0    0    1   
 $EndComp
@@ -254,7 +270,9 @@ F 0 "R1" V 1980 2400 40  0000 C CNN
 F 1 "10k" V 1907 2401 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1830 2400 30  0001 C CNN
 F 3 "~" H 1900 2400 30  0000 C CNN
-F 4 "0805" V 1900 2400 60  0001 C CNN "Package"
+F 4 "Panasonic" V 1900 2400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 1900 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 1900 2400 60  0001 C CNN "Package"
 	1    1900 2400
 	-1   0    0    1   
 $EndComp
@@ -266,7 +284,9 @@ F 0 "C5" H 2450 2450 40  0000 L CNN
 F 1 "0.1uF" H 2456 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2488 2200 30  0001 C CNN
 F 3 "~" H 2450 2350 60  0000 C CNN
-F 4 "0805" H 2450 2350 60  0001 C CNN "Package"
+F 4 "Samsung" H 2450 2350 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 2450 2350 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2450 2350 60  0001 C CNN "Package"
 	1    2450 2350
 	-1   0    0    1   
 $EndComp
@@ -278,7 +298,9 @@ F 0 "C4" H 2150 2450 40  0000 L CNN
 F 1 "0.1uF" H 2156 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 2200 30  0001 C CNN
 F 3 "~" H 2150 2350 60  0000 C CNN
-F 4 "0805" H 2150 2350 60  0001 C CNN "Package"
+F 4 "Samsung" H 2150 2350 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 2150 2350 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2150 2350 60  0001 C CNN "Package"
 	1    2150 2350
 	-1   0    0    1   
 $EndComp
@@ -315,7 +337,9 @@ F 0 "R6" V 6150 3500 40  0000 C CNN
 F 1 "10k" V 6257 3501 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6180 3500 30  0001 C CNN
 F 3 "~" H 6250 3500 30  0000 C CNN
-F 4 "0805" V 6250 3500 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6250 3500 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 6250 3500 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6250 3500 60  0001 C CNN "Package"
 	1    6250 3500
 	0    1    1    0   
 $EndComp
@@ -327,7 +351,9 @@ F 0 "D3" H 6900 1500 24  0000 C CNN
 F 1 "Yellow" H 6900 1300 24  0000 C CNN
 F 2 "LEDs:LED-0805" H 6900 1400 60  0001 C CNN
 F 3 "~" H 6900 1400 60  0000 C CNN
-F 4 "0805" H 6900 1400 60  0001 C CNN "Package"
+F 4 "Kingbright" H 6900 1400 60  0001 C CNN "Manufacturer"
+F 5 "APT2012SYCK" H 6900 1400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 6900 1400 60  0001 C CNN "Package"
 	1    6900 1400
 	1    0    0    -1  
 $EndComp
@@ -339,7 +365,9 @@ F 0 "R9" V 6380 1400 40  0000 C CNN
 F 1 "1k" V 6307 1401 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 1400 30  0001 C CNN
 F 3 "~" H 6300 1400 30  0000 C CNN
-F 4 "0805" V 6300 1400 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6300 1400 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6300 1400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6300 1400 60  0001 C CNN "Package"
 	1    6300 1400
 	0    1    1    0   
 $EndComp
@@ -351,7 +379,9 @@ F 0 "D4" H 6900 3200 24  0000 C CNN
 F 1 "Red" H 6900 3000 24  0000 C CNN
 F 2 "LEDs:LED-0805" H 6900 3100 60  0001 C CNN
 F 3 "~" H 6900 3100 60  0000 C CNN
-F 4 "0805" H 6900 3100 60  0001 C CNN "Package"
+F 4 "Kingbright" H 6900 3100 60  0001 C CNN "Manufacturer"
+F 5 "APT2012EC" H 6900 3100 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 6900 3100 60  0001 C CNN "Package"
 	1    6900 3100
 	1    0    0    -1  
 $EndComp
@@ -363,7 +393,9 @@ F 0 "R10" V 6380 3100 40  0000 C CNN
 F 1 "1k" V 6307 3101 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6230 3100 30  0001 C CNN
 F 3 "~" H 6300 3100 30  0000 C CNN
-F 4 "0805" V 6300 3100 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6300 3100 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6300 3100 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6300 3100 60  0001 C CNN "Package"
 	1    6300 3100
 	0    1    1    0   
 $EndComp
@@ -437,7 +469,9 @@ F 0 "R15" V 9180 1850 40  0000 C CNN
 F 1 "220R" V 9107 1851 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 9030 1850 30  0001 C CNN
 F 3 "~" H 9100 1850 30  0000 C CNN
-F 4 "0805" V 9100 1850 60  0001 C CNN "Package"
+F 4 "Panasonic" V 9100 1850 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ221V" V 9100 1850 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 9100 1850 60  0001 C CNN "Package"
 	1    9100 1850
 	0    -1   -1   0   
 $EndComp
@@ -474,7 +508,9 @@ F 0 "R17" V 10830 1950 40  0000 C CNN
 F 1 "220R" V 10757 1951 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10680 1950 30  0001 C CNN
 F 3 "~" H 10750 1950 30  0000 C CNN
-F 4 "0805" V 10750 1950 60  0001 C CNN "Package"
+F 4 "Panasonic" V 10750 1950 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ221V" V 10750 1950 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 10750 1950 60  0001 C CNN "Package"
 	1    10750 1950
 	1    0    0    -1  
 $EndComp
@@ -543,7 +579,9 @@ F 0 "R16" V 10630 1100 40  0000 C CNN
 F 1 "220R" V 10557 1101 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 10480 1100 30  0001 C CNN
 F 3 "~" H 10550 1100 30  0000 C CNN
-F 4 "0805" V 10550 1100 60  0001 C CNN "Package"
+F 4 "Panasonic" V 10550 1100 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ221V" V 10550 1100 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 10550 1100 60  0001 C CNN "Package"
 	1    10550 1100
 	0    -1   -1   0   
 $EndComp
@@ -588,7 +626,9 @@ F 0 "C3" H 1850 6100 40  0000 L CNN
 F 1 "0.22uF" H 1700 6300 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 6050 30  0001 C CNN
 F 3 "~" H 1950 6200 60  0000 C CNN
-F 4 "0805" H 1950 6200 60  0001 C CNN "Package"
+F 4 "Samsung" H 1950 6200 60  0001 C CNN "Manufacturer"
+F 5 "CL21B224KAFNFNE" H 1950 6200 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1950 6200 60  0001 C CNN "Package"
 	1    1950 6200
 	-1   0    0    1   
 $EndComp
@@ -600,7 +640,9 @@ F 0 "C7" H 2750 6300 40  0000 L CNN
 F 1 "0.1uF" H 2756 6115 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 6050 30  0001 C CNN
 F 3 "~" H 2750 6200 60  0000 C CNN
-F 4 "0805" H 2750 6200 60  0001 C CNN "Package"
+F 4 "Samsung" H 2750 6200 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 2750 6200 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2750 6200 60  0001 C CNN "Package"
 	1    2750 6200
 	-1   0    0    1   
 $EndComp
@@ -640,6 +682,8 @@ F 0 "P1" H 8450 3450 50  0000 C CNN
 F 1 "CONN_02X03" H 8450 3050 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 8450 2050 60  0001 C CNN
 F 3 "" H 8450 2050 60  0000 C CNN
+F 4 "FCI" H 8450 3250 60  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 8450 3250 60  0001 C CNN "Manufcaturer part number"
 	1    8450 3250
 	1    0    0    -1  
 $EndComp
@@ -694,7 +738,9 @@ F 0 "C10" H 10550 2000 40  0000 L CNN
 F 1 "0.1uF" H 10556 1815 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 1750 30  0001 C CNN
 F 3 "~" H 10550 1900 60  0000 C CNN
-F 4 "0805" H 10550 1900 60  0001 C CNN "Package"
+F 4 "Samsung" H 10550 1900 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 10550 1900 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 10550 1900 60  0001 C CNN "Package"
 	1    10550 1900
 	-1   0    0    1   
 $EndComp
@@ -707,6 +753,8 @@ F 1 "1k" V 6207 2701 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6130 2700 30  0001 C CNN
 F 3 "" H 6200 2700 30  0000 C CNN
 F 4 "0805" V 6200 2700 60  0001 C CNN "Package"
+F 5 "ERJ-6GEYJ102V" V 6200 2700 60  0001 C CNN "Manufacturer part number"
+F 6 "Panasonic" V 6200 2700 60  0001 C CNN "Manufacturer"
 	1    6200 2700
 	0    1    1    0   
 $EndComp
@@ -718,7 +766,9 @@ F 0 "R12" V 6400 2600 40  0000 C CNN
 F 1 "1k" V 6207 2601 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 6130 2600 30  0001 C CNN
 F 3 "" H 6200 2600 30  0000 C CNN
-F 4 "0805" V 6200 2600 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6200 2600 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6200 2600 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6200 2600 60  0001 C CNN "Package"
 	1    6200 2600
 	0    1    1    0   
 $EndComp
@@ -755,6 +805,8 @@ F 0 "P4" H 8450 4000 50  0000 C CNN
 F 1 "CONN_02X03" H 8450 3600 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 8450 2600 60  0001 C CNN
 F 3 "" H 8450 2600 60  0000 C CNN
+F 4 "FCI" H 8450 3800 60  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 8450 3800 60  0001 C CNN "Manufacturer part number"
 	1    8450 3800
 	1    0    0    -1  
 $EndComp
@@ -1287,6 +1339,8 @@ F 0 "P5" H 8450 4550 50  0000 C CNN
 F 1 "CONN_02X03" H 8450 4150 50  0000 C CNN
 F 2 "Pin_Headers:Pin_Header_Straight_2x03" H 8450 3150 60  0001 C CNN
 F 3 "" H 8450 3150 60  0000 C CNN
+F 4 "FCI" H 8450 4350 60  0001 C CNN "Manufacturer"
+F 5 "75869-131LF" H 8450 4350 60  0001 C CNN "Manufacturer part number"
 	1    8450 4350
 	1    0    0    -1  
 $EndComp
@@ -1362,7 +1416,9 @@ F 0 "C11" H 7700 5350 50  0000 L CNN
 F 1 "0.1uF" H 7700 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7688 5100 30  0001 C CNN
 F 3 "" H 7650 5250 60  0000 C CNN
-F 4 "0805" H 7650 5250 60  0001 C CNN "Package"
+F 4 "Samsung" H 7650 5250 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 7650 5250 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 7650 5250 60  0001 C CNN "Package"
 	1    7650 5250
 	0    1    1    0   
 $EndComp
@@ -1387,7 +1443,9 @@ F 0 "C14" H 2900 1700 50  0000 L CNN
 F 1 "0.1uF" H 2900 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 1450 30  0001 C CNN
 F 3 "" H 2850 1600 60  0000 C CNN
-F 4 "0805" H 2850 1600 60  0001 C CNN "Package"
+F 4 "Samsung" H 2850 1600 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 2850 1600 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2850 1600 60  0001 C CNN "Package"
 	1    2850 1600
 	1    0    0    -1  
 $EndComp
@@ -1432,9 +1490,11 @@ U 1 1 54DBFBD8
 P 2650 1600
 F 0 "C15" H 2700 1700 40  0000 L CNN
 F 1 "100uF" H 2450 1500 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2750 1450 30  0001 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 2750 1450 30  0001 C CNN
 F 3 "~" H 2650 1600 300 0000 C CNN
-F 4 "0805" H 2650 1600 60  0001 C CNN "Package"
+F 4 "Panasonic" H 2650 1600 60  0001 C CNN "Manufacturer"
+F 5 "EEE-TPC101XAP" H 2650 1600 60  0001 C CNN "Manufacturer part number"
+F 6 "6.30mm" H 2650 1600 60  0001 C CNN "Package"
 	1    2650 1600
 	1    0    0    -1  
 $EndComp
@@ -1518,7 +1578,9 @@ F 0 "C17" H 1850 4950 40  0000 L CNN
 F 1 "0.22uF" H 1700 5150 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 4900 30  0001 C CNN
 F 3 "~" H 1950 5050 60  0000 C CNN
-F 4 "0805" H 1950 5050 60  0001 C CNN "Package"
+F 4 "Samsung" H 1950 5050 60  0001 C CNN "Manufacturer"
+F 5 "CL21B224KAFNFNE" H 1950 5050 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1950 5050 60  0001 C CNN "Package"
 	1    1950 5050
 	-1   0    0    1   
 $EndComp
@@ -1530,7 +1592,9 @@ F 0 "C18" H 2750 5150 40  0000 L CNN
 F 1 "0.1uF" H 2756 4965 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 4900 30  0001 C CNN
 F 3 "~" H 2750 5050 60  0000 C CNN
-F 4 "0805" H 2750 5050 60  0001 C CNN "Package"
+F 4 "Samsung" H 2750 5050 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 2750 5050 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 2750 5050 60  0001 C CNN "Package"
 	1    2750 5050
 	-1   0    0    1   
 $EndComp

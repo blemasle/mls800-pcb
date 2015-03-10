@@ -489,7 +489,9 @@ F 0 "C12" H 1150 950 50  0000 L CNN
 F 1 "0.1uF" V 950 750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 700 30  0001 C CNN
 F 3 "" H 1100 850 60  0000 C CNN
-F 4 "0805" H 1100 850 60  0001 C CNN "Package"
+F 4 "Samsung" H 1100 850 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 1100 850 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1100 850 60  0001 C CNN "Package"
 	1    1100 850 
 	1    0    0    -1  
 $EndComp
@@ -1487,7 +1489,9 @@ F 0 "C20" H 5550 2550 50  0000 L CNN
 F 1 "0.1uF" V 5550 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 2250 30  0001 C CNN
 F 3 "" H 5700 2400 60  0000 C CNN
-F 4 "0805" H 5700 2400 60  0001 C CNN "Package"
+F 4 "Samsung" H 5700 2400 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 5700 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 5700 2400 60  0001 C CNN "Package"
 	1    5700 2400
 	-1   0    0    1   
 $EndComp
@@ -1497,9 +1501,11 @@ U 1 1 54F3652F
 P 5400 2400
 F 0 "C19" H 5400 2250 40  0000 L CNN
 F 1 "100uF" H 5200 2500 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5500 2250 30  0001 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 5500 2250 30  0001 C CNN
 F 3 "" H 5400 2400 300 0000 C CNN
-F 4 "0805" H 5400 2400 60  0001 C CNN "Package"
+F 4 "Panasonic" H 5400 2400 60  0001 C CNN "Manufacturer"
+F 5 "EEE-TPC101XAP" H 5400 2400 60  0001 C CNN "Manufacturer part number"
+F 6 "6.30mm" H 5400 2400 60  0001 C CNN "Package"
 	1    5400 2400
 	1    0    0    -1  
 $EndComp

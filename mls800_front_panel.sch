@@ -567,7 +567,9 @@ F 0 "R7" V 1630 2850 40  0000 C CNN
 F 1 "10K" V 1557 2851 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 2850 30  0001 C CNN
 F 3 "" H 1550 2850 30  0000 C CNN
-F 4 "0805" V 1550 2850 60  0001 C CNN "Package"
+F 4 "Panasonic" V 1550 2850 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ103V" V 1550 2850 60  0001 C CNN "Field6"
+F 6 "0805" V 1550 2850 60  0001 C CNN "Package"
 	1    1550 2850
 	-1   0    0    1   
 $EndComp
@@ -820,7 +822,9 @@ F 0 "C13" H 1100 850 50  0000 L CNN
 F 1 "0.1uF" H 1100 650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1088 600 30  0001 C CNN
 F 3 "" H 1050 750 60  0000 C CNN
-F 4 "0805" H 1050 750 60  0001 C CNN "Package"
+F 4 "Samsung" H 1050 750 60  0001 C CNN "Manufacturer"
+F 5 "CL21B104MACNNNC" H 1050 750 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 1050 750 60  0001 C CNN "Package"
 	1    1050 750 
 	1    0    0    -1  
 $EndComp
@@ -836,7 +840,9 @@ F 0 "C16" H 900 850 40  0000 L CNN
 F 1 "100uF" H 900 650 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 950 600 30  0001 C CNN
 F 3 "" H 850 750 300 0000 C CNN
-F 4 "0805" H 850 750 60  0001 C CNN "Package"
+F 4 "Panasonic" H 850 750 60  0001 C CNN "Manufacturer"
+F 5 "EEE-TPC101XAP" H 850 750 60  0001 C CNN "Manufacturer part number"
+F 6 "6.30mm" H 850 750 60  0001 C CNN "Package"
 	1    850  750 
 	-1   0    0    1   
 $EndComp
