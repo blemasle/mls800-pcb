@@ -183,7 +183,9 @@ F 0 "R19" V 1380 1050 40  0000 C CNN
 F 1 "23.6k" V 1307 1051 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1230 1050 30  0001 C CNN
 F 3 "" H 1300 1050 30  0000 C CNN
-F 4 "0805" V 1300 1050 60  0001 C CNN "Package"
+F 4 "Panasonic" V 1300 1050 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ243V" V 1300 1050 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 1300 1050 60  0001 C CNN "Package"
 	1    1300 1050
 	0    1    1    0   
 $EndComp
@@ -226,6 +228,7 @@ F 1 "SW_TACT_LED" H 4720 3950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 4050 60  0001 C CNN
 F 3 "" H 4750 4050 60  0000 C CNN
 F 4 "MEC switches" H 4750 4050 60  0001 C CNN "Manufacturer"
+F 5 "5GSH93582" H 4750 4050 60  0001 C CNN "Manufacturer part number"
 	1    4750 4050
 	1    0    0    -1  
 $EndComp
@@ -514,10 +517,12 @@ L R R8
 U 1 1 54972E4B
 P 6150 5550
 F 0 "R8" V 6230 5550 40  0000 C CNN
-F 1 "250R" V 6157 5551 40  0000 C CNN
+F 1 "1k" V 6157 5551 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6080 5550 30  0001 C CNN
 F 3 "" H 6150 5550 30  0000 C CNN
-F 4 "0805" V 6150 5550 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6150 5550 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6150 5550 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6150 5550 60  0001 C CNN "Package"
 	1    6150 5550
 	0    1    1    0   
 $EndComp
@@ -539,10 +544,12 @@ L R R5
 U 1 1 54972FD3
 P 6150 5800
 F 0 "R5" V 6230 5800 40  0000 C CNN
-F 1 "250R" V 6157 5801 40  0000 C CNN
+F 1 "1k" V 6157 5801 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 6080 5800 30  0001 C CNN
 F 3 "" H 6150 5800 30  0000 C CNN
-F 4 "0805" V 6150 5800 60  0001 C CNN "Package"
+F 4 "Panasonic" V 6150 5800 60  0001 C CNN "Manufacturer"
+F 5 "ERJ-6GEYJ102V" V 6150 5800 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" V 6150 5800 60  0001 C CNN "Package"
 	1    6150 5800
 	0    1    1    0   
 $EndComp
@@ -568,7 +575,7 @@ F 1 "10K" V 1557 2851 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 1480 2850 30  0001 C CNN
 F 3 "" H 1550 2850 30  0000 C CNN
 F 4 "Panasonic" V 1550 2850 60  0001 C CNN "Manufacturer"
-F 5 "ERJ-6GEYJ103V" V 1550 2850 60  0001 C CNN "Field6"
+F 5 "ERJ-6GEYJ103V" V 1550 2850 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" V 1550 2850 60  0001 C CNN "Package"
 	1    1550 2850
 	-1   0    0    1   
