@@ -1,96 +1,37 @@
-Reference; Value; Footprint; Datasheet; Manufacturer; Manufacturer part number; Package; Manufacturer#1; Manufacturer part number#1; Manufcaturer part number; Field6
-D2;1N4001;Diodes_SMD:Diode-SMA_Handsoldering;;Diodes Incorporated;S1A-13-F;SMA;;;;
-CON1;BARREL_JACK;Connect:JACK_ALIM;;Switchcraft;RAPC722X;;;;;
-R14;22R;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-P06J220V;0805;;;;
-R13;22R;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-P06J220V;0805;;;;
-X1;16Mhz;Crystals_Oscillators_SMD:Q_49U3HMS;;;;HC49/US;;;;
-C1;22pF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21C220GBANNNC;0805;;;;
-C2;22pF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21C220GBANNNC;0805;;;;
-C6;1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B105KOFNFNE;0805;;;;
-F1;MF-MSMF050-2;SMD_Packages:SMD-1812;;Bourns;MF-MSMF050-2;1812;;;;
-C8;22uF;Capacitors_SMD:C_1210_HandSoldering;;Samsung;CL32B226KAJNFNE;1210;;;;
-R4;10k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ103V;0805;;;;
-C9;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-R1;10k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ103V;0805;;;;
-C5;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-C4;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-D1;CD1206-S01575;SMD_Packages:SMD-1206_Pol;;Bourns;CD1206-S01575;1206;;;;
-R6;10k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ103V;0805;;;;
-D3;Yellow;LEDs:LED-0805;;Kingbright;APT2012SYCK;0805;;;;
-R9;1k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ102V;0805;;;;
-D4;Red;LEDs:LED-0805;;Kingbright;APT2012EC;0805;;;;
-R10;1k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ102V;0805;;;;
-U3;24LC256;Housings_SOIC:SOIC-8_3.9x4.9mm_Pitch1.27mm;;Microchip;24LC256I/SN;SOIC-8;;;;
-R15;220R;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ221V;0805;;;;
-IC1;6N137;SMD_Packages:DIP-8_SMD;;Fairchild Semiconductor;6N137SM;DIP-8 SMD;;;;
-R17;220R;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ221V;0805;;;;
-D5;CD1206-S01575;SMD_Packages:SMD-1206_Pol;;Bourns;CD1206-S01575;1206;;;;
-P2;DIN_5;Custom-conn:DIN_5;;CUI Inc;SDS-50J;;Switchcraft;57PC5F;;
-P3;DIN_5;Custom-conn:DIN_5;;CUI Inc;SDS-50J;;Switchcraft;57PC5F;;
-R16;220R;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ221V;0805;;;;
-C3;0.22uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B224KAFNFNE;0805;;;;
-C7;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-P1;CONN_02X03;Pin_Headers:Pin_Header_Straight_2x03;;FCI;;;;;75869-131LF;
-VR2;CG0603MLC-05E;Resistors_SMD:R_0603_HandSoldering;;Bourns;CG0603MLC-05E;0603;;;;
-VR1;CG0603MLC-05E;Resistors_SMD:R_0603_HandSoldering;;Bourns;CG0603MLC-05E;0603;;;;
-J1;USB;Connect:USB_B;;Molex Inc;67068-8000;;Molex Inc;67068-9000;;
-C10;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-R11;1k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ102V;0805;;;;
-R12;1k;Resistors_SMD:R_0805_HandSoldering;;Panasonic;ERJ-6GEYJ102V;0805;;;;
-U1;LM340MP-5.0/NOPB;SMD_Packages:SOT-223;;Texas Instruments;LM340MP-5.0/NOPB;SOT-223;;;;
-P4;CONN_02X03;Pin_Headers:Pin_Header_Straight_2x03;;FCI;75869-131LF;;;;;
-U2;ATmega32U4-AU;Housings_QFP:TQFP-44_10x10mm_Pitch0.8mm;;Atmel;ATMega32U4-AU;TQFP-44;;;;
-P5;CONN_02X03;Pin_Headers:Pin_Header_Straight_2x03;;FCI;75869-131LF;;;;;
-SW12;SW_PUSH;Custom-device:SW_PUSH_SMALL;;TE Connectivity;FSM4JSMA;;;;;
-C11;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-C14;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-MH1;CONN_01X01;Connect:1pin;
-C15;100uF;Capacitors_SMD:c_elec_6.3x7.7;;Panasonic;EEE-TPC101XAP;6.30mm;;;;
-R2;0R;Resistors_SMD:R_0805_HandSoldering;;;;0805;;;;
-U8;LM340MP-5.0/NOPB;SMD_Packages:SOT-223;;Texas Instruments;LM340MP-5.0/NOPB;SOT-223;;;;
-C17;0.22uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B224KAFNFNE;0805;;;;
-C18;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-D6;1N4001;Diodes_SMD:Diode-SMA_Handsoldering;;Diodes Incorporated;S1A-13-F;SMA;;;;
-U4;MCP23017;Housings_SSOP:SSOP-28_5.3x10.2mm_Pitch0.65mm;;Microchip;MCP23017-E/SS;SSOP-28;;;;
-R18;1k;Resistors_SMD:R_0805_HandSoldering;;;;0805;;;;
-RE1;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J3;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-J2;NRJ4HF-1;Custom-conn:NRJ4HF-1;;Neutrik;NRJ4HF-1;;;;;
-RE2;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J4;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE3;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J5;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE4;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J6;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE5;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J7;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE6;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J8;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE7;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J9;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-RE8;LATCH_DPDT;Custom-device:Relay_SMD_DPDT-RT2_bistabil;;TE Connectivity;V23079E1201B301;;;;;
-J10;NSJ8HC;Custom-conn:NSJ8HL;;Neutrik;NSJ8HC;;;;;
-J11;NRJ4HF-1;Custom-conn:NRJ4HF-1;;Neutrik;NRJ4HF-1;;;;;
-C12;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-U7;ULN2803A;Housings_SOIC:SOIC-18_7.5x11.6mm_Pitch1.27mm;;Texas Instruments;ULN2803ADW;SOIC-18;;;;
-U6;ULN2803A;Housings_SOIC:SOIC-18_7.5x11.6mm_Pitch1.27mm;;Texas Instruments;ULN2803ADW;SOIC-18;;;;
-C20;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-C19;100uF;Capacitors_SMD:c_elec_6.3x7.7;;Panasonic;EEE-TPC101XAP;6.30mm;;;;
-AFF1;LTC-5723HR;Custom-display:LTC-5723;;Lite-On;LTC-5723HR;;;;;
-U5;AS1115;Housings_SSOP:SSOP-24_3.9x8.7mm_Pitch0.635mm;;ams AG;AS1115-BSST;TQFN-24;;;;
-R19;23.6k;Resistors_SMD:R_0805_HandSoldering;;;;0805;;;;
-SW2;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW3;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW4;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;;;;;;
-SW5;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW6;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW7;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW8;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW9;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW10;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-SW11;SW_TACT_LED;Custom-device:MEC-5G;;MEC switches;5GSH93582;;;;;
-R8;250R;Resistors_SMD:R_0805_HandSoldering;;;;0805;;;;
-R5;250R;Resistors_SMD:R_0805_HandSoldering;;;;0805;;;;
-R7;10K;Resistors_SMD:R_0805_HandSoldering;;Panasonic;;0805;;;;ERJ-6GEYJ103V
-C13;0.1uF;Capacitors_SMD:C_0805_HandSoldering;;Samsung;CL21B104MACNNNC;0805;;;;
-C16;100uF;Capacitors_SMD:C_0805_HandSoldering;;Panasonic;EEE-TPC101XAP;6.30mm;;;;
+References, Quantity, Manufacturer, Manufacturer PN
+D2;D6,2,Diodes Incorporated,S1A-13-F
+CON1,1,Switchcraft,RAPC722X
+R14;R13,2,Panasonic,ERJ-P06J220V
+X1,1,ECS Inc,ECS-160-20-5PX-TR
+C1;C2,2,Samsung,CL21C220GBANNNC
+C6,1,Samsung,CL21B105KOFNFNE
+F1,1,Bourns,MF-MSMF050-2
+C8,1,Samsung,CL32B226KAJNFNE
+R4;R1;R6;R7,4,Panasonic,ERJ-6GEYJ103V
+C9;C5;C4;C7;C10;C11;C14;C18;C12;C20;C13,11,Samsung,CL21B104MACNNNC
+D1;D5,2,Bourns,CD1206-S01575
+D3,1,Kingbright,APT2012SYCK
+R9;R10;R11;R12;R18;R8;R5,7,Panasonic,ERJ-6GEYJ102V
+D4,1,Kingbright,APT2012EC
+U3,1,Microchip,24LC256I/SN
+R15;R17;R16,3,Panasonic,ERJ-6GEYJ221V
+IC1,1,Fairchild Semiconductor,6N137SM
+P2;P3,2,CUI Inc,SDS-50J
+C3;C17,2,Samsung,CL21B224KAFNFNE
+P1;P4;P5,3,FCI,75869-131LF
+VR2;VR1,2,Bourns,CG0603MLC-05E
+J1,1,Molex Inc,67068-8000
+U1;U8,2,Texas Instruments,LM340MP-5.0/NOPB
+U2,1,Atmel,ATMega32U4-AU
+SW12,1,TE Connectivity,FSM4JSMA
+C15;C19;C16,3,Panasonic,EEE-TPC101XAP
+R2,1,Panasonic,ERJ-6GEY0R00V
+U4,1,Microchip,MCP23017-E/SS
+RE1;RE2;RE3;RE4;RE5;RE6;RE7;RE8,8,TE Connectivity,V23079E1201B301
+J3;J4;J5;J6;J7;J8;J9;J10,8,Neutrik,NSJ8HC
+J2;J11,2,Neutrik,NRJ4HF-1
+U7;U6,2,Texas Instruments,ULN2803ADW
+AFF1,1,Lite-On,LTC-5723HR
+U5,1,ams AG,AS1115-BSST
+R19,1,Panasonic,ERJ-6GEYJ243V
+SW2;SW3;SW4;SW5;SW6;SW7;SW8;SW9;SW10;SW11,10,MEC switches,5GSH93582
