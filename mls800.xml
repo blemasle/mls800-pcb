@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:/Working Copies/Engineering/mls800/kicad/mls800.sch</source>
-    <date>11/03/2015 22:42:11</date>
+    <date>11/03/2015 23:30:01</date>
     <tool>Eeschema (2014-12-01 BZR 5309)-product</tool>
   </design>
   <components>
@@ -70,7 +70,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805C220KBRACTU</field>
+        <field name="Manufacturer part number">C0805C220K3GACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -82,7 +82,7 @@
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
         <field name="Manufacturer">Kemet</field>
-        <field name="Manufacturer part number">C0805C220KBRACTU</field>
+        <field name="Manufacturer part number">C0805C220K3GACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -321,10 +321,8 @@
       <value>DIN_5</value>
       <footprint>Custom-conn:DIN_5</footprint>
       <fields>
-        <field name="Manufacturer">CUI Inc</field>
-        <field name="Manufacturer part number">SDS-50J</field>
-        <field name="Manufacturer#1">Switchcraft</field>
-        <field name="Manufacturer part number#1">57PC5F</field>
+        <field name="Manufacturer">Kobiconn</field>
+        <field name="Manufacturer part number">161-0505-E</field>
       </fields>
       <libsource lib="conn" part="DIN_5"/>
       <sheetpath names="/" tstamps="/"/>
@@ -334,10 +332,8 @@
       <value>DIN_5</value>
       <footprint>Custom-conn:DIN_5</footprint>
       <fields>
-        <field name="Manufacturer">CUI Inc</field>
-        <field name="Manufacturer part number">SDS-50J</field>
-        <field name="Manufacturer#1">Switchcraft</field>
-        <field name="Manufacturer part number#1">57PC5F</field>
+        <field name="Manufacturer">Kobiconn</field>
+        <field name="Manufacturer part number">161-0505-E</field>
       </fields>
       <libsource lib="conn" part="DIN_5"/>
       <sheetpath names="/" tstamps="/"/>
@@ -944,7 +940,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -955,7 +951,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -966,7 +962,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -977,7 +973,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -988,7 +984,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -999,7 +995,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -1010,7 +1006,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -1021,7 +1017,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -1032,7 +1028,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>
@@ -1043,7 +1039,7 @@
       <value>SW_TACT_LED</value>
       <footprint>Custom-device:MEC-5G</footprint>
       <fields>
-        <field name="Manufacturer">MEC switches</field>
+        <field name="Manufacturer">Apem</field>
         <field name="Manufacturer part number">5GSH93582</field>
       </fields>
       <libsource lib="custom-device" part="SW_TACT_LED"/>

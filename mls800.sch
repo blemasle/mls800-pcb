@@ -143,7 +143,7 @@ F 1 "22pF" H 2556 3065 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3000 30  0001 C CNN
 F 3 "~" H 2550 3150 60  0000 C CNN
 F 4 "Kemet" H 2550 3150 60  0001 C CNN "Manufacturer"
-F 5 "C0805C220KBRACTU" H 2550 3150 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805C220K3GACTU" H 2550 3150 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2550 3150 60  0001 C CNN "Package"
 	1    2550 3150
 	0    -1   -1   0   
@@ -157,7 +157,7 @@ F 1 "22pF" H 2556 3665 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3600 30  0001 C CNN
 F 3 "~" H 2550 3750 60  0000 C CNN
 F 4 "Kemet" H 2550 3750 60  0001 C CNN "Manufacturer"
-F 5 "C0805C220KBRACTU" H 2550 3750 60  0001 C CNN "Manufacturer part number"
+F 5 "C0805C220K3GACTU" H 2550 3750 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2550 3750 60  0001 C CNN "Package"
 	1    2550 3750
 	0    -1   -1   0   
@@ -538,10 +538,8 @@ F 0 "P2" H 8250 2050 70  0000 C CNN
 F 1 "DIN_5" H 8250 1900 70  0000 C CNN
 F 2 "Custom-conn:DIN_5" H 8250 2050 60  0001 C CNN
 F 3 "" H 8250 2050 60  0000 C CNN
-F 4 "CUI Inc" H 8250 2050 60  0001 C CNN "Manufacturer"
-F 5 "SDS-50J" H 8250 2050 60  0001 C CNN "Manufacturer part number"
-F 6 "Switchcraft" H 8250 2050 60  0001 C CNN "Manufacturer#1"
-F 7 "57PC5F" H 8250 2050 60  0001 C CNN "Manufacturer part number#1"
+F 4 "Kobiconn" H 8250 2050 60  0001 C CNN "Manufacturer"
+F 5 "161-0505-E" H 8250 2050 60  0001 C CNN "Manufacturer part number"
 	1    8250 2050
 	1    0    0    -1  
 $EndComp
@@ -555,10 +553,8 @@ F 0 "P3" H 9700 1300 70  0000 C CNN
 F 1 "DIN_5" H 9700 1150 70  0000 C CNN
 F 2 "Custom-conn:DIN_5" H 9700 1300 60  0001 C CNN
 F 3 "" H 9700 1300 60  0000 C CNN
-F 4 "CUI Inc" H 9700 1300 60  0001 C CNN "Manufacturer"
-F 5 "SDS-50J" H 9700 1300 60  0001 C CNN "Manufacturer part number"
-F 6 "Switchcraft" H 9700 1300 60  0001 C CNN "Manufacturer#1"
-F 7 "57PC5F" H 9700 1300 60  0001 C CNN "Manufacturer part number#1"
+F 4 "Kobiconn" H 9700 1300 60  0001 C CNN "Manufacturer"
+F 5 "161-0505-E" H 9700 1300 60  0001 C CNN "Manufacturer part number"
 	1    9700 1300
 	1    0    0    -1  
 $EndComp
