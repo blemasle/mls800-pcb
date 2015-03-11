@@ -829,8 +829,8 @@ F 0 "C13" H 1100 850 50  0000 L CNN
 F 1 "0.1uF" H 1100 650 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1088 600 30  0001 C CNN
 F 3 "" H 1050 750 60  0000 C CNN
-F 4 "Samsung" H 1050 750 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 1050 750 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 1050 750 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 1050 750 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1050 750 60  0001 C CNN "Package"
 	1    1050 750 
 	1    0    0    -1  

@@ -142,8 +142,8 @@ F 0 "C1" H 2550 3250 40  0000 L CNN
 F 1 "22pF" H 2556 3065 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3000 30  0001 C CNN
 F 3 "~" H 2550 3150 60  0000 C CNN
-F 4 "Samsung" H 2550 3150 60  0001 C CNN "Manufacturer"
-F 5 "CL21C220GBANNNC" H 2550 3150 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2550 3150 60  0001 C CNN "Manufacturer"
+F 5 "C0805C220KBRACTU" H 2550 3150 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2550 3150 60  0001 C CNN "Package"
 	1    2550 3150
 	0    -1   -1   0   
@@ -156,8 +156,8 @@ F 0 "C2" H 2550 3850 40  0000 L CNN
 F 1 "22pF" H 2556 3665 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2588 3600 30  0001 C CNN
 F 3 "~" H 2550 3750 60  0000 C CNN
-F 4 "Samsung" H 2550 3750 60  0001 C CNN "Manufacturer"
-F 5 "CL21C220GBANNNC" H 2550 3750 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2550 3750 60  0001 C CNN "Manufacturer"
+F 5 "C0805C220KBRACTU" H 2550 3750 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2550 3750 60  0001 C CNN "Package"
 	1    2550 3750
 	0    -1   -1   0   
@@ -170,8 +170,8 @@ F 0 "C6" H 2950 2500 40  0000 L CNN
 F 1 "1uF" H 2956 2315 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2988 2250 30  0001 C CNN
 F 3 "~" H 2950 2400 60  0000 C CNN
-F 4 "Samsung" H 2950 2400 60  0001 C CNN "Manufacturer"
-F 5 "CL21B105KOFNFNE" H 2950 2400 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2950 2400 60  0001 C CNN "Manufacturer"
+F 5 "C0805C105K3RACTU" H 2950 2400 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2950 2400 60  0001 C CNN "Package"
 	1    2950 2400
 	0    -1   -1   0   
@@ -215,8 +215,8 @@ F 0 "C8" H 4650 5700 40  0000 L CNN
 F 1 "22uF" H 4650 5500 40  0000 L CNN
 F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4700 5450 30  0001 C CNN
 F 3 "~" H 4600 5600 300 0000 C CNN
-F 4 "Samsung" H 4600 5600 60  0001 C CNN "Manufacturer"
-F 5 "CL32B226KAJNFNE" H 4600 5600 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 4600 5600 60  0001 C CNN "Manufacturer"
+F 5 "T491A226K010AT" H 4600 5600 60  0001 C CNN "Manufacturer part number"
 F 6 "1210" H 4600 5600 60  0001 C CNN "Package"
 	1    4600 5600
 	-1   0    0    1   
@@ -243,8 +243,8 @@ F 0 "C9" H 5200 5700 40  0000 L CNN
 F 1 "0.1uF" H 5206 5515 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5238 5450 30  0001 C CNN
 F 3 "~" H 5200 5600 60  0000 C CNN
-F 4 "Samsung" H 5200 5600 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 5200 5600 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 5200 5600 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 5200 5600 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 5200 5600 60  0001 C CNN "Package"
 	1    5200 5600
 	-1   0    0    1   
@@ -286,8 +286,8 @@ F 0 "C5" H 2450 2450 40  0000 L CNN
 F 1 "0.1uF" H 2456 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2488 2200 30  0001 C CNN
 F 3 "~" H 2450 2350 60  0000 C CNN
-F 4 "Samsung" H 2450 2350 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 2450 2350 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2450 2350 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2450 2350 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2450 2350 60  0001 C CNN "Package"
 	1    2450 2350
 	-1   0    0    1   
@@ -300,8 +300,8 @@ F 0 "C4" H 2150 2450 40  0000 L CNN
 F 1 "0.1uF" H 2156 2265 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 2200 30  0001 C CNN
 F 3 "~" H 2150 2350 60  0000 C CNN
-F 4 "Samsung" H 2150 2350 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 2150 2350 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2150 2350 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2150 2350 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2150 2350 60  0001 C CNN "Package"
 	1    2150 2350
 	-1   0    0    1   
@@ -628,8 +628,8 @@ F 0 "C3" H 1850 6100 40  0000 L CNN
 F 1 "0.22uF" H 1700 6300 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 6050 30  0001 C CNN
 F 3 "~" H 1950 6200 60  0000 C CNN
-F 4 "Samsung" H 1950 6200 60  0001 C CNN "Manufacturer"
-F 5 "CL21B224KAFNFNE" H 1950 6200 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 1950 6200 60  0001 C CNN "Manufacturer"
+F 5 "C0805C224K3RACTU" H 1950 6200 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1950 6200 60  0001 C CNN "Package"
 	1    1950 6200
 	-1   0    0    1   
@@ -642,8 +642,8 @@ F 0 "C7" H 2750 6300 40  0000 L CNN
 F 1 "0.1uF" H 2756 6115 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 6050 30  0001 C CNN
 F 3 "~" H 2750 6200 60  0000 C CNN
-F 4 "Samsung" H 2750 6200 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 2750 6200 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2750 6200 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2750 6200 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2750 6200 60  0001 C CNN "Package"
 	1    2750 6200
 	-1   0    0    1   
@@ -740,8 +740,8 @@ F 0 "C10" H 10550 2000 40  0000 L CNN
 F 1 "0.1uF" H 10556 1815 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10588 1750 30  0001 C CNN
 F 3 "~" H 10550 1900 60  0000 C CNN
-F 4 "Samsung" H 10550 1900 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 10550 1900 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 10550 1900 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 10550 1900 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 10550 1900 60  0001 C CNN "Package"
 	1    10550 1900
 	-1   0    0    1   
@@ -1418,8 +1418,8 @@ F 0 "C11" H 7700 5350 50  0000 L CNN
 F 1 "0.1uF" H 7700 5150 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 7688 5100 30  0001 C CNN
 F 3 "" H 7650 5250 60  0000 C CNN
-F 4 "Samsung" H 7650 5250 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 7650 5250 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 7650 5250 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 7650 5250 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 7650 5250 60  0001 C CNN "Package"
 	1    7650 5250
 	0    1    1    0   
@@ -1445,8 +1445,8 @@ F 0 "C14" H 2900 1700 50  0000 L CNN
 F 1 "0.1uF" H 2900 1500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2888 1450 30  0001 C CNN
 F 3 "" H 2850 1600 60  0000 C CNN
-F 4 "Samsung" H 2850 1600 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 2850 1600 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2850 1600 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2850 1600 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2850 1600 60  0001 C CNN "Package"
 	1    2850 1600
 	1    0    0    -1  
@@ -1582,8 +1582,8 @@ F 0 "C17" H 1850 4950 40  0000 L CNN
 F 1 "0.22uF" H 1700 5150 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1988 4900 30  0001 C CNN
 F 3 "~" H 1950 5050 60  0000 C CNN
-F 4 "Samsung" H 1950 5050 60  0001 C CNN "Manufacturer"
-F 5 "CL21B224KAFNFNE" H 1950 5050 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 1950 5050 60  0001 C CNN "Manufacturer"
+F 5 "C0805C224K3RACTU" H 1950 5050 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1950 5050 60  0001 C CNN "Package"
 	1    1950 5050
 	-1   0    0    1   
@@ -1596,8 +1596,8 @@ F 0 "C18" H 2750 5150 40  0000 L CNN
 F 1 "0.1uF" H 2756 4965 40  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 4900 30  0001 C CNN
 F 3 "~" H 2750 5050 60  0000 C CNN
-F 4 "Samsung" H 2750 5050 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 2750 5050 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 2750 5050 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 2750 5050 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 2750 5050 60  0001 C CNN "Package"
 	1    2750 5050
 	-1   0    0    1   

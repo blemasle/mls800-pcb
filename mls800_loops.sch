@@ -74,7 +74,7 @@ F 0 "R18" V 930 1150 40  0000 C CNN
 F 1 "1k" V 857 1151 40  0000 C CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" V 780 1150 30  0001 C CNN
 F 3 "~" H 850 1150 30  0000 C CNN
-F 4 "Samsung" V 850 1150 60  0001 C CNN "Manufacturer"
+F 4 "Kemet" V 850 1150 60  0001 C CNN "Manufacturer"
 F 5 "ERJ-6GEYJ102V" V 850 1150 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" V 850 1150 60  0001 C CNN "Package"
 	1    850  1150
@@ -491,8 +491,8 @@ F 0 "C12" H 1150 950 50  0000 L CNN
 F 1 "0.1uF" V 950 750 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 1138 700 30  0001 C CNN
 F 3 "" H 1100 850 60  0000 C CNN
-F 4 "Samsung" H 1100 850 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 1100 850 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 1100 850 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 1100 850 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 1100 850 60  0001 C CNN "Package"
 	1    1100 850 
 	1    0    0    -1  
@@ -1491,8 +1491,8 @@ F 0 "C20" H 5550 2550 50  0000 L CNN
 F 1 "0.1uF" V 5550 2300 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0805_HandSoldering" H 5738 2250 30  0001 C CNN
 F 3 "" H 5700 2400 60  0000 C CNN
-F 4 "Samsung" H 5700 2400 60  0001 C CNN "Manufacturer"
-F 5 "CL21B104MACNNNC" H 5700 2400 60  0001 C CNN "Manufacturer part number"
+F 4 "Kemet" H 5700 2400 60  0001 C CNN "Manufacturer"
+F 5 "C0805C104M3RACTU" H 5700 2400 60  0001 C CNN "Manufacturer part number"
 F 6 "0805" H 5700 2400 60  0001 C CNN "Package"
 	1    5700 2400
 	-1   0    0    1   
