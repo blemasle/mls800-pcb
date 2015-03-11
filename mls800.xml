@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>E:/Working Copies/Engineering/mls800/kicad/mls800.sch</source>
-    <date>11/03/2015 00:04:29</date>
+    <date>11/03/2015 22:42:11</date>
     <tool>Eeschema (2014-12-01 BZR 5309)-product</tool>
   </design>
   <components>
@@ -69,8 +69,8 @@
       <value>22pF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21C220GBANNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C220KBRACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -81,8 +81,8 @@
       <value>22pF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21C220GBANNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C220KBRACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -93,8 +93,8 @@
       <value>1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B105KOFNFNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C105K3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -117,8 +117,8 @@
       <value>22uF</value>
       <footprint>Capacitors_SMD:C_1210_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL32B226KAJNFNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">T491A226K010AT</field>
         <field name="Package">1210</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -141,8 +141,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -165,8 +165,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -177,8 +177,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -359,8 +359,8 @@
       <value>0.22uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B224KAFNFNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C224K3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -371,8 +371,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -431,8 +431,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -524,8 +524,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -536,8 +536,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -591,8 +591,8 @@
       <value>0.22uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B224KAFNFNE</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C224K3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -603,8 +603,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -639,7 +639,7 @@
       <value>1k</value>
       <footprint>Resistors_SMD:R_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
+        <field name="Manufacturer">Kemet</field>
         <field name="Manufacturer part number">ERJ-6GEYJ102V</field>
         <field name="Package">0805</field>
       </fields>
@@ -849,8 +849,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -885,8 +885,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>
@@ -1090,8 +1090,8 @@
       <value>0.1uF</value>
       <footprint>Capacitors_SMD:C_0805_HandSoldering</footprint>
       <fields>
-        <field name="Manufacturer">Samsung</field>
-        <field name="Manufacturer part number">CL21B104MACNNNC</field>
+        <field name="Manufacturer">Kemet</field>
+        <field name="Manufacturer part number">C0805C104M3RACTU</field>
         <field name="Package">0805</field>
       </fields>
       <libsource lib="device" part="C"/>

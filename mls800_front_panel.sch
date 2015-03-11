@@ -201,7 +201,7 @@ F 0 "SW2" H 4550 3700 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 3450 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 3550 60  0001 C CNN
 F 3 "" H 4750 3550 60  0000 C CNN
-F 4 "MEC switches" H 4750 3550 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 3550 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 3550 60  0001 C CNN "Manufacturer part number"
 	1    4750 3550
 	1    0    0    -1  
@@ -214,7 +214,7 @@ F 0 "SW3" H 4550 3950 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 3700 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 3800 60  0001 C CNN
 F 3 "" H 4750 3800 60  0000 C CNN
-F 4 "MEC switches" H 4750 3800 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 3800 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 3800 60  0001 C CNN "Manufacturer part number"
 	1    4750 3800
 	1    0    0    -1  
@@ -227,7 +227,7 @@ F 0 "SW4" H 4550 4200 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 3950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 4050 60  0001 C CNN
 F 3 "" H 4750 4050 60  0000 C CNN
-F 4 "MEC switches" H 4750 4050 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 4050 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 4050 60  0001 C CNN "Manufacturer part number"
 	1    4750 4050
 	1    0    0    -1  
@@ -240,7 +240,7 @@ F 0 "SW5" H 4550 4450 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 4200 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 4300 60  0001 C CNN
 F 3 "" H 4750 4300 60  0000 C CNN
-F 4 "MEC switches" H 4750 4300 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 4300 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 4300 60  0001 C CNN "Manufacturer part number"
 	1    4750 4300
 	1    0    0    -1  
@@ -253,7 +253,7 @@ F 0 "SW6" H 4550 4700 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 4450 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 4550 60  0001 C CNN
 F 3 "" H 4750 4550 60  0000 C CNN
-F 4 "MEC switches" H 4750 4550 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 4550 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 4550 60  0001 C CNN "Manufacturer part number"
 	1    4750 4550
 	1    0    0    -1  
@@ -266,7 +266,7 @@ F 0 "SW7" H 4550 4950 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 4700 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 4800 60  0001 C CNN
 F 3 "" H 4750 4800 60  0000 C CNN
-F 4 "MEC switches" H 4750 4800 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 4800 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 4800 60  0001 C CNN "Manufacturer part number"
 	1    4750 4800
 	1    0    0    -1  
@@ -279,7 +279,7 @@ F 0 "SW8" H 4550 5200 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 4950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 5050 60  0001 C CNN
 F 3 "" H 4750 5050 60  0000 C CNN
-F 4 "MEC switches" H 4750 5050 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 5050 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 5050 60  0001 C CNN "Manufacturer part number"
 	1    4750 5050
 	1    0    0    -1  
@@ -292,7 +292,7 @@ F 0 "SW9" H 4550 5450 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 5200 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 5300 60  0001 C CNN
 F 3 "" H 4750 5300 60  0000 C CNN
-F 4 "MEC switches" H 4750 5300 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 5300 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 5300 60  0001 C CNN "Manufacturer part number"
 	1    4750 5300
 	1    0    0    -1  
@@ -337,8 +337,8 @@ F 0 "SW2" H 6650 3700 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 3450 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 3550 60  0001 C CNN
 F 3 "" H 6850 3550 60  0000 C CNN
-F 4 "MEC switches" H 6850 3550 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 3550 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 3550 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 3550 60  0001 C CNN "Manufacturer part number"
 	2    6850 3550
 	1    0    0    -1  
 $EndComp
@@ -350,8 +350,8 @@ F 0 "SW3" H 6650 3950 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 3700 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 3800 60  0001 C CNN
 F 3 "" H 6850 3800 60  0000 C CNN
-F 4 "MEC switches" H 6850 3800 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 3800 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 3800 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 3800 60  0001 C CNN "Manufacturer part number"
 	2    6850 3800
 	1    0    0    -1  
 $EndComp
@@ -363,8 +363,8 @@ F 0 "SW4" H 6650 4200 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 3950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 4050 60  0001 C CNN
 F 3 "" H 6850 4050 60  0000 C CNN
-F 4 "MEC switches" H 6850 4050 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 4050 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 4050 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 4050 60  0001 C CNN "Manufacturer part number"
 	2    6850 4050
 	1    0    0    -1  
 $EndComp
@@ -376,8 +376,8 @@ F 0 "SW5" H 6650 4450 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 4200 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 4300 60  0001 C CNN
 F 3 "" H 6850 4300 60  0000 C CNN
-F 4 "MEC switches" H 6850 4300 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 4300 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 4300 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 4300 60  0001 C CNN "Manufacturer part number"
 	2    6850 4300
 	1    0    0    -1  
 $EndComp
@@ -389,8 +389,8 @@ F 0 "SW6" H 6650 4700 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 4450 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 4550 60  0001 C CNN
 F 3 "" H 6850 4550 60  0000 C CNN
-F 4 "MEC switches" H 6850 4550 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 4550 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 4550 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 4550 60  0001 C CNN "Manufacturer part number"
 	2    6850 4550
 	1    0    0    -1  
 $EndComp
@@ -402,8 +402,8 @@ F 0 "SW7" H 6650 4950 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 4700 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 4800 60  0001 C CNN
 F 3 "" H 6850 4800 60  0000 C CNN
-F 4 "MEC switches" H 6850 4800 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 4800 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 4800 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 4800 60  0001 C CNN "Manufacturer part number"
 	2    6850 4800
 	1    0    0    -1  
 $EndComp
@@ -415,8 +415,8 @@ F 0 "SW8" H 6650 5200 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 4950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 5050 60  0001 C CNN
 F 3 "" H 6850 5050 60  0000 C CNN
-F 4 "MEC switches" H 6850 5050 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 5050 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 5050 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 5050 60  0001 C CNN "Manufacturer part number"
 	2    6850 5050
 	1    0    0    -1  
 $EndComp
@@ -428,8 +428,8 @@ F 0 "SW9" H 6650 5450 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 5200 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 5300 60  0001 C CNN
 F 3 "" H 6850 5300 60  0000 C CNN
-F 4 "MEC switches" H 6850 5300 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 5300 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 5300 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 5300 60  0001 C CNN "Manufacturer part number"
 	2    6850 5300
 	1    0    0    -1  
 $EndComp
@@ -486,7 +486,7 @@ F 0 "SW10" H 4550 5900 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 5650 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 5750 60  0001 C CNN
 F 3 "" H 4750 5750 60  0000 C CNN
-F 4 "MEC switches" H 4750 5750 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 5750 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 5750 60  0001 C CNN "Manufacturer part number"
 	1    4750 5750
 	1    0    0    -1  
@@ -499,7 +499,7 @@ F 0 "SW11" H 4550 6200 60  0000 C CNN
 F 1 "SW_TACT_LED" H 4720 5950 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 4750 6050 60  0001 C CNN
 F 3 "" H 4750 6050 60  0000 C CNN
-F 4 "MEC switches" H 4750 6050 60  0001 C CNN "Manufacturer"
+F 4 "Apem" H 4750 6050 60  0001 C CNN "Manufacturer"
 F 5 "5GSH93582" H 4750 6050 60  0001 C CNN "Manufacturer part number"
 	1    4750 6050
 	1    0    0    -1  
@@ -534,8 +534,8 @@ F 0 "SW10" H 6650 5700 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 5450 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 5550 60  0001 C CNN
 F 3 "" H 6850 5550 60  0000 C CNN
-F 4 "MEC switches" H 6850 5550 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 5550 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 5550 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 5550 60  0001 C CNN "Manufacturer part number"
 	2    6850 5550
 	1    0    0    -1  
 $EndComp
@@ -561,8 +561,8 @@ F 0 "SW11" H 6650 5950 60  0000 C CNN
 F 1 "SW_TACT_LED" H 6820 5700 60  0001 C CNN
 F 2 "Custom-device:MEC-5G" H 6850 5800 60  0001 C CNN
 F 3 "" H 6850 5800 60  0000 C CNN
-F 4 "MEC switches" H 6850 5800 60  0001 C CNN "Manufacturer"
-F 5 "1ES098" H 6850 5800 60  0001 C CNN "Manufacturer part number"
+F 4 "Apem" H 6850 5800 60  0001 C CNN "Manufacturer"
+F 5 "1ES096" H 6850 5800 60  0001 C CNN "Manufacturer part number"
 	2    6850 5800
 	1    0    0    -1  
 $EndComp
