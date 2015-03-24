@@ -5,7 +5,7 @@
     (no_connects 0)
     (area 27.94 31.440001 350.9 125.780001)
     (thickness 1.6)
-    (drawings 33)
+    (drawings 35)
     (tracks 1434)
     (zones 0)
     (modules 106)
@@ -63,7 +63,7 @@
     (pad_to_mask_clearance 0.3)
     (solder_mask_min_width 0.1)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFEFF7F)
+    (visible_elements 7FFEFFFF)
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions true)
@@ -1595,7 +1595,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D24A) (tstamp 54BC52BC)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D24A) (tstamp 550D9E6E)
     (at 292.1 68.58 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1624,7 +1624,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D4D4) (tstamp 54F62FEA)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D4D4) (tstamp 550D9B49)
     (at 74.93 112.776 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1682,7 +1682,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54F6FDDA) (tstamp 54F62F0B)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54F6FDDA) (tstamp 550DA047)
     (at 170.18 119.126 90)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1711,7 +1711,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54189DEE) (tstamp 54F62FDD)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54189DEE) (tstamp 550D9BA8)
     (at 91.44 120.396 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1856,7 +1856,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D366) (tstamp 54C6C819)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D366) (tstamp 550D9AE6)
     (at 302.26 59.69 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -1943,7 +1943,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D309) (tstamp 54BC5075)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D309) (tstamp 550D979C)
     (at 241.3 68.58 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -2001,7 +2001,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D302) (tstamp 54EE5CC1)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D302) (tstamp 550D9AC7)
     (at 240.03 72.39 180)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -2030,7 +2030,7 @@
     )
   )
 
-  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D4AF) (tstamp 54F62F98)
+  (module Resistors_SMD:R_0805_HandSoldering placed (layer F.Cu) (tedit 54E3D4AF) (tstamp 550D995D)
     (at 153.67 119.126 270)
     (descr "Resistor SMD 0805, hand soldering")
     (tags "resistor 0805")
@@ -3812,6 +3812,12 @@
     )
   )
 
+  (gr_text ^ (at 213.5 105.5 180) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text ^ (at 197 107) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
   (gr_text . (at 120.65 122.555) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
