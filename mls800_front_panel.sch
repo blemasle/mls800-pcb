@@ -442,21 +442,21 @@ Entry Wire Line
 Text Label 7050 3550 0    60   ~ 0
 LEDS
 Text Label 5950 3550 2    60   ~ 0
-SEGA
-Text Label 5950 3800 2    60   ~ 0
-SEGB
-Text Label 5950 4300 2    60   ~ 0
-SEGD
-Text Label 5950 4550 2    60   ~ 0
-SEGE
-Text Label 5950 4800 2    60   ~ 0
-SEGF
-Text Label 5950 5050 2    60   ~ 0
-SEGG
-Text Label 5950 5300 2    60   ~ 0
 SEGDP
-Text Label 5950 4050 2    60   ~ 0
+Text Label 5950 3800 2    60   ~ 0
+SEGA
+Text Label 5950 4300 2    60   ~ 0
 SEGC
+Text Label 5950 4550 2    60   ~ 0
+SEGD
+Text Label 5950 4800 2    60   ~ 0
+SEGE
+Text Label 5950 5050 2    60   ~ 0
+SEGF
+Text Label 5950 5300 2    60   ~ 0
+SEGG
+Text Label 5950 4050 2    60   ~ 0
+SEGB
 Entry Wire Line
 	5550 3450 5650 3550
 Entry Wire Line
@@ -511,7 +511,7 @@ Entry Wire Line
 Text Label 4450 5750 2    60   ~ 0
 SEGE
 Text Label 4450 6050 2    60   ~ 0
-SEGF
+SEGD
 $Comp
 L R R8
 U 1 1 54972E4B
