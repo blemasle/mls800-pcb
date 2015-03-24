@@ -213,11 +213,11 @@ U 1 1 53506359
 P 4600 5600
 F 0 "C8" H 4650 5700 40  0000 L CNN
 F 1 "22uF" H 4650 5500 40  0000 L CNN
-F 2 "Capacitors_SMD:C_1210_HandSoldering" H 4700 5450 30  0001 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4700 5450 30  0001 C CNN
 F 3 "~" H 4600 5600 300 0000 C CNN
 F 4 "Kemet" H 4600 5600 60  0001 C CNN "Manufacturer"
-F 5 "T491A226K010AT" H 4600 5600 60  0001 C CNN "Manufacturer part number"
-F 6 "1210" H 4600 5600 60  0001 C CNN "Package"
+F 5 "C0805C226K9PACTU" H 4600 5600 60  0001 C CNN "Manufacturer part number"
+F 6 "0805" H 4600 5600 60  0001 C CNN "Package"
 	1    4600 5600
 	-1   0    0    1   
 $EndComp
