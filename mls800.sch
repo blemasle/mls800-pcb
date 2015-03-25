@@ -530,34 +530,8 @@ F 6 "SOD-123" H 9350 2050 60  0001 C CNN "Package"
 	1    9350 2050
 	0    -1   -1   0   
 $EndComp
-$Comp
-L DIN_5 P2
-U 1 1 53A8E246
-P 8250 2050
-F 0 "P2" H 8250 2050 70  0000 C CNN
-F 1 "DIN_5" H 8250 1900 70  0000 C CNN
-F 2 "Custom-conn:DIN_5" H 8250 2050 60  0001 C CNN
-F 3 "" H 8250 2050 60  0000 C CNN
-F 4 "Kobiconn" H 8250 2050 60  0001 C CNN "Manufacturer"
-F 5 "161-0505-E" H 8250 2050 60  0001 C CNN "Manufacturer part number"
-	1    8250 2050
-	1    0    0    -1  
-$EndComp
 Text Notes 7950 1225 0    197  ~ 39
 MIDI\n
-$Comp
-L DIN_5 P3
-U 1 1 53A8E24D
-P 9700 1300
-F 0 "P3" H 9700 1300 70  0000 C CNN
-F 1 "DIN_5" H 9700 1150 70  0000 C CNN
-F 2 "Custom-conn:DIN_5" H 9700 1300 60  0001 C CNN
-F 3 "" H 9700 1300 60  0000 C CNN
-F 4 "Kobiconn" H 9700 1300 60  0001 C CNN "Manufacturer"
-F 5 "161-0505-E" H 9700 1300 60  0001 C CNN "Manufacturer part number"
-	1    9700 1300
-	1    0    0    -1  
-$EndComp
 $Comp
 L VCC #PWR36
 U 1 1 53A8E259
@@ -1663,6 +1637,32 @@ F 1 "PWR_FLAG" H 9250 4430 30  0000 C CNN
 F 2 "" H 9250 4250 60  0000 C CNN
 F 3 "" H 9250 4250 60  0000 C CNN
 	1    9250 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_5 P2
+U 1 1 55133E84
+P 8250 2050
+F 0 "P2" H 8250 2050 70  0000 C CNN
+F 1 "DIN_5" H 8250 1900 70  0000 C CNN
+F 2 "Custom-conn:DIN_5" H 8250 2050 60  0001 C CNN
+F 3 "http://www.te.com/catalog/pn/en/5212044-1?RQPN=5212044-1" H 8250 2050 60  0001 C CNN
+F 4 "TE Connectivity" H 8250 2050 60  0001 C CNN "Manufacturer"
+F 5 "5212044-1" H 8250 2050 60  0001 C CNN "Manufacturer part number"
+	1    8250 2050
+	1    0    0    -1  
+$EndComp
+$Comp
+L DIN_5 P3
+U 1 1 55134037
+P 9700 1300
+F 0 "P3" H 9700 1300 70  0000 C CNN
+F 1 "DIN_5" H 9700 1150 70  0000 C CNN
+F 2 "Custom-conn:DIN_5" H 9700 1300 60  0001 C CNN
+F 3 "http://www.te.com/catalog/pn/en/5212044-1?RQPN=5212044-1" H 9700 1300 60  0001 C CNN
+F 4 "TE Connectivity" H 9700 1300 60  0001 C CNN "Manufacturer"
+F 5 "5212044-1" H 9700 1300 60  0001 C CNN "Manufacturer part number"
+	1    9700 1300
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
