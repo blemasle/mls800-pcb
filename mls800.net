@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "E:/Working Copies/Engineering/mls800/kicad/mls800.sch")
-    (date "26/03/2015 23:53:00")
+    (date "27/03/2015 00:05:14")
     (tool "Eeschema (2014-12-01 BZR 5309)-product"))
   (components
     (comp (ref D2)
