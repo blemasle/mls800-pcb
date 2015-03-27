@@ -1368,19 +1368,6 @@ F 3 "" H 9100 4250 60  0000 C CNN
 $EndComp
 Connection ~ 9100 4250
 $Comp
-L SW_PUSH SW12
-U 1 1 54C5C8EB
-P 1100 2650
-F 0 "SW12" H 1250 2760 50  0000 C CNN
-F 1 "SW_PUSH" H 1100 2570 50  0000 C CNN
-F 2 "Custom-device:SW_PUSH_SMALL" H 1100 2650 60  0001 C CNN
-F 3 "" H 1100 2650 60  0000 C CNN
-F 4 "TE Connectivity" H 1100 2650 60  0001 C CNN "Manufacturer"
-F 5 "FSM4JSMA" H 1100 2650 60  0001 C CNN "Manufacturer part number"
-	1    1100 2650
-	1    0    0    -1  
-$EndComp
-$Comp
 L C C11
 U 1 1 54D9655A
 P 7650 5250
@@ -1663,6 +1650,19 @@ F 3 "http://www.te.com/catalog/pn/en/5212044-1?RQPN=5212044-1" H 9700 1300 60  0
 F 4 "TE Connectivity" H 9700 1300 60  0001 C CNN "Manufacturer"
 F 5 "5212044-1" H 9700 1300 60  0001 C CNN "Manufacturer part number"
 	1    9700 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_PUSH_RIGHT_ANGLE SW12
+U 1 1 5514E1F5
+P 1100 2650
+F 0 "SW12" H 1250 2760 50  0000 C CNN
+F 1 "SW_PUSH_RIGHT_ANGLE" H 1100 2570 50  0000 C CNN
+F 2 "Custom-device:SW_PUSH_RIGHT_ANGLE" H 1100 2650 60  0000 C CNN
+F 3 "" H 1100 2650 60  0000 C CNN
+F 4 "Apem" H 1100 2650 60  0001 C CNN "Manufacturer"
+F 5 "MJTP1236C" H 1100 2650 60  0001 C CNN "Manufacturer part number"
+	1    1100 2650
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
