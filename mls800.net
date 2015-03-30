@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "D:/Working Copies/kicad-mls800/mls800.sch")
-    (date "30/03/2015 21:31:50")
+    (date "30/03/2015 21:37:05")
     (tool "Eeschema (2015-02-03 BZR 5404)-product"))
   (components
     (comp (ref D2)
@@ -909,7 +909,7 @@
       (tstamp 54D9EF4F))
     (comp (ref C16)
       (value 100uF)
-      (footprint Capacitors_SMD:C_0805_HandSoldering)
+      (footprint Capacitors_SMD:c_elec_6.3x7.7)
       (fields
         (field (name Manufacturer) Panasonic)
         (field (name "Manufacturer part number") EEE-TPC101XAP)

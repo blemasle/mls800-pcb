@@ -845,7 +845,7 @@ U 1 1 54DC240E
 P 850 750
 F 0 "C16" H 900 850 40  0000 L CNN
 F 1 "100uF" H 900 650 40  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 950 600 30  0001 C CNN
+F 2 "Capacitors_SMD:c_elec_6.3x7.7" H 950 600 30  0001 C CNN
 F 3 "" H 850 750 300 0000 C CNN
 F 4 "Panasonic" H 850 750 60  0001 C CNN "Manufacturer"
 F 5 "EEE-TPC101XAP" H 850 750 60  0001 C CNN "Manufacturer part number"
