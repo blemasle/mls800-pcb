@@ -298,21 +298,21 @@ F 5 "5GSH93582" H 4750 5300 60  0001 C CNN "Manufacturer part number"
 	1    0    0    -1  
 $EndComp
 Text Label 4450 3550 2    60   ~ 0
-SEGA
-Text Label 4450 3800 2    60   ~ 0
-SEGB
-Text Label 4450 4050 2    60   ~ 0
-SEGC
-Text Label 4450 4300 2    60   ~ 0
-SEGD
-Text Label 4450 4550 2    60   ~ 0
-SEGE
-Text Label 4450 4800 2    60   ~ 0
-SEGF
-Text Label 4450 5300 2    60   ~ 0
 SEGDP
+Text Label 4450 3800 2    60   ~ 0
+SEGA
+Text Label 4450 4050 2    60   ~ 0
+SEGB
+Text Label 4450 4300 2    60   ~ 0
+SEGC
+Text Label 4450 4550 2    60   ~ 0
+SEGD
+Text Label 4450 4800 2    60   ~ 0
+SEGE
+Text Label 4450 5300 2    60   ~ 0
+SEGDG
 Text Label 4450 5050 2    60   ~ 0
-SEGG
+SEGF
 Entry Wire Line
 	4050 3450 4150 3550
 Entry Wire Line
