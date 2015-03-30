@@ -310,7 +310,7 @@ SEGD
 Text Label 4450 4800 2    60   ~ 0
 SEGE
 Text Label 4450 5300 2    60   ~ 0
-SEGDG
+SEGG
 Text Label 4450 5050 2    60   ~ 0
 SEGF
 Entry Wire Line
