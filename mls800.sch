@@ -1665,4 +1665,6 @@ F 5 "MJTP1236C" H 1100 2650 60  0001 C CNN "Manufacturer part number"
 	1    1100 2650
 	1    0    0    -1  
 $EndComp
+Text Notes 7650 2500 0    60   ~ 0
+MIDI jacks are seen "from behind" !!
 $EndSCHEMATC
