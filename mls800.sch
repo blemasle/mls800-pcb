@@ -566,7 +566,6 @@ NoConn ~ 9100 1300
 NoConn ~ 8250 1450
 NoConn ~ 8850 2050
 NoConn ~ 7650 2050
-NoConn ~ 10200 2000
 NoConn ~ 1300 5500
 NoConn ~ 8550 5750
 $Sheet
@@ -1065,7 +1064,7 @@ Wire Wire Line
 Wire Wire Line
 	10200 1900 10350 1900
 Wire Wire Line
-	10350 1900 10350 1700
+	10350 1700 10350 2000
 Wire Wire Line
 	10350 2200 10950 2200
 Wire Wire Line
@@ -1667,4 +1666,7 @@ F 5 "MJTP1236C" H 1100 2650 60  0001 C CNN "Manufacturer part number"
 $EndComp
 Text Notes 7650 2500 0    60   ~ 0
 MIDI jacks are seen "from behind" !!
+Wire Wire Line
+	10350 2000 10200 2000
+Connection ~ 10350 1900
 $EndSCHEMATC
