@@ -1660,7 +1660,7 @@ F 1 "SW_PUSH_RIGHT_ANGLE" H 1100 2570 50  0000 C CNN
 F 2 "Custom-device:SW_PUSH_RIGHT_ANGLE" H 1100 2650 60  0001 C CNN
 F 3 "" H 1100 2650 60  0000 C CNN
 F 4 "Apem" H 1100 2650 60  0001 C CNN "Manufacturer"
-F 5 "MJTP1236C" H 1100 2650 60  0001 C CNN "Manufacturer part number"
+F 5 "MJTP1236" H 1100 2650 60  0001 C CNN "Manufacturer part number"
 	1    1100 2650
 	1    0    0    -1  
 $EndComp

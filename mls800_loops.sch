@@ -448,8 +448,6 @@ F 5 "NRJ4HF-1" H 10600 6150 60  0001 C CNN "Manufacturer part number"
 	1    10600 6150
 	-1   0    0    1   
 $EndComp
-NoConn ~ 10150 6100
-NoConn ~ 7300 700 
 $Comp
 L VCC #PWR041
 U 1 1 543C6A1E
@@ -1044,13 +1042,13 @@ Wire Wire Line
 Wire Wire Line
 	10150 5700 10100 5700
 Wire Wire Line
-	7300 900  7300 800 
+	7300 700  7300 900 
 Wire Wire Line
-	7250 900  7300 900 
+	7300 900  7250 900 
 Wire Wire Line
-	10100 6300 10150 6300
+	10150 6300 10100 6300
 Wire Wire Line
-	10150 6300 10150 6200
+	10150 6100 10150 6300
 Wire Wire Line
 	9850 1300 10150 1300
 Wire Wire Line
@@ -1621,4 +1619,6 @@ F 3 "" H 9600 1350 60  0000 C CNN
 	1    9600 1350
 	-1   0    0    1   
 $EndComp
+Connection ~ 10150 6200
+Connection ~ 7300 800 
 $EndSCHEMATC
