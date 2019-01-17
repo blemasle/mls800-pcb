@@ -1,34 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
 LIBS:audio
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:custom-regul
 LIBS:custom-special
 LIBS:custom-conn
@@ -639,7 +613,7 @@ Wire Bus Line
 Wire Bus Line
 	3750 1700 7750 1700
 Wire Wire Line
-	1050 1050 1050 950 
+	1050 900  1050 1050
 Wire Wire Line
 	600  950  1550 950 
 Wire Wire Line
@@ -745,9 +719,9 @@ Wire Bus Line
 Wire Bus Line
 	4050 2650 4050 5950
 Wire Wire Line
-	6400 5550 6550 5550
+	6300 5550 6550 5550
 Wire Wire Line
-	6400 5800 6550 5800
+	6300 5800 6550 5800
 Wire Wire Line
 	1400 2600 1550 2600
 Connection ~ 1050 950 
@@ -768,13 +742,13 @@ SCL
 Text Label 1400 2600 0    60   ~ 0
 IRQ
 Wire Wire Line
-	1550 3350 1550 3100
+	1550 3000 1550 3350
 Wire Wire Line
-	5900 5550 5700 5550
+	5700 5550 6000 5550
 Text Label 5700 5550 0    60   ~ 0
 LED
 Wire Wire Line
-	5900 5800 5700 5800
+	5700 5800 6000 5800
 Text Label 5700 5800 0    60   ~ 0
 VDD
 Wire Wire Line
@@ -857,4 +831,16 @@ Connection ~ 850  550
 Connection ~ 850  950 
 Text Label 1550 3350 0    60   ~ 0
 VDD
+Wire Wire Line
+	1050 1050 1150 1050
+Wire Wire Line
+	1450 1050 1550 1050
+Wire Wire Line
+	850  950  850  900 
+Wire Wire Line
+	1050 550  1050 600 
+Wire Wire Line
+	850  600  850  550 
+Wire Wire Line
+	1550 2600 1550 2700
 $EndSCHEMATC

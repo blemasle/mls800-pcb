@@ -1,34 +1,8 @@
 EESchema Schematic File Version 2
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:special
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
 LIBS:audio
 LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
 LIBS:custom-regul
 LIBS:custom-special
 LIBS:custom-conn
@@ -1430,7 +1404,7 @@ Wire Wire Line
 Wire Wire Line
 	5700 2000 5800 2000
 Wire Wire Line
-	5700 2000 5700 2200
+	5700 2000 5700 2250
 Wire Bus Line
 	3300 4350 5900 4350
 Wire Bus Line
@@ -1510,11 +1484,11 @@ F 6 "6.30mm" H 5400 2400 60  0001 C CNN "Package"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5700 2600 5700 2700
+	5700 2550 5700 2700
 Wire Wire Line
 	5700 2700 5400 2700
 Wire Wire Line
-	5400 2700 5400 2600
+	5400 2700 5400 2550
 Wire Wire Line
 	5550 2700 5550 2800
 Connection ~ 5550 2700
@@ -1621,4 +1595,15 @@ F 3 "" H 9600 1350 60  0000 C CNN
 $EndComp
 Connection ~ 10150 6200
 Connection ~ 7300 800 
+Wire Wire Line
+	5400 2200 5400 2250
+Connection ~ 5700 2200
+Wire Wire Line
+	1100 1150 1000 1150
+Wire Wire Line
+	700  1150 600  1150
+Wire Wire Line
+	1100 1050 1100 1000
+Wire Wire Line
+	1100 700  1100 650 
 $EndSCHEMATC
