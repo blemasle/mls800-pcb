@@ -2,7 +2,7 @@
 
 # MLS800 PCBs
 
-![MLS800 preview 1](https://blemasle.github.io/mls800/assets/product-front-2.gif)
+[![MLS800 preview 1](https://blemasle.github.io/mls800/assets/product-front-2.gif)](https://blemasle.github.io/mls800/assets/large/product-front-2.png)
 
 The MLS800 is an open-source 1U rack unit MIDI controlled Loop Switcher with 8 audio loops.  
 
